@@ -1,0 +1,43 @@
+---
+title: "DevOp"
+---
+
+DevOps es un enfoque que busca acelerar el desarrollo y la entrega de software mediante la integración continua y la colaboración estrecha entre los equipos de **desarrollo (Dev) y operaciones (Ops).** Promueve la automatización, la comunicación continua y la retroalimentación constante para mejorar la calidad y la eficiencia en todas las etapas del ciclo de vida del desarrollo de software. 
+
+Esto se logra a través de una combinación de cultura, prácticas y herramientas que facilitan la colaboración, la entrega continua y la mejora continua del proceso de desarrollo de software.
+
+# Extensiones del curso"Desarrollo de aplicaciones web"
+
+
+
+| Java     | React  | 
+|---------:|:-------|
+|  json    |   html |  
+|  xml     |   css  | 
+|  java    |   jsx  |
+|  csv     |   js   |  
+
+
+
+# Categorias de un proyecto
+
+Un proyecto puede ser divido en cuatro categorias principales
+
+
+*   **Proyecto**: view, versiones, interacciones, mockup, configuraciones;
+*   **Domains**: controller, models...
+*   **UML:** diagrama de cómo se estructura. 
+*   **Code:** código en si mismo
+
+
+
+
+# IDE's
+
+| IDEA                 | Visual Code  |  TMBeans  |
+|---------------------:|:-------------|-----------|
+|  Java SE - Maven     |   Quarto     |   Mooc    |
+|  Spring boot - Maven |   React      |           | 
+
+
+# 

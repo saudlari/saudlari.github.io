@@ -1,0 +1,87 @@
+---
+title: "Proyecto personal"
+---
+
+# Path Proyecto Personal
+
+
+# UML Secuencia Proyecto Personal
+
+```{mermaid}
+flowchart LR
+
+  A[Home] --> B{Input Generador de Graficos}
+  A --> C{Page Infografias}
+  A --> D{Page Posts- Reportajes}
+  A --> E{Page About}
+  B --> F[(Database)]
+  E --> G[contacto]
+
+
+
+```
+
+# Estructura carpetas Proyecto Personal
+
+![Estructura carpetas](/Imagenes/estructuracarpetas.png){.lightbox}
+
+# Winning Strategy
+<https://fs.blog/playing-to-win-how-strategy-really-works/>
+
+## **1. ¿Cuál es mi aspiración?**
+
+>**Aspiraciones ganadoras** 
+*Las aspiraciones son declaraciones sobre el futuro ideal. En una etapa posterior del proceso, una empresa se vincula con esas aspiraciones algunos puntos de referencia específicos que miden el progreso hacia ellos. ... Las aspiraciones pueden ser refinadas y revisadas con el tiempo. Sin embargo, las aspiraciones no deberían cambiar día a día; existen para alinear constantemente las actividades dentro de la empresa, por lo que deben diseñarse para durar algún tiempo.*
+
+**Respuesta:** Mi aspiración en ser Front End Developer, especializada en React y infografías interativas. La idea es que mis infografías puedan agrupar dos ejes que me encantan: los datos y el collage creativo. 
+
+
+## **2. ¿Dónde voy a jugar?** 
+
+>*Dónde jugar representa el conjunto de opciones que estrechan el campo competitivo. Las preguntas a formular se centran en dónde competirá la empresa, en qué mercados, con los que los clientes y consumidores, en los que se encuentran los canales, en qué categorías de productos y en qué fase vertical o etapas de la industria en cuestión.*
+
+**Respuesta**: Trabajé desde Brasil, porque tengo ganas de estar un tiempo con mi familia, ya que llevo casi 10 años viviendo en España. Mi idea es trabajar desde allí durante 1 año para alguna empresa que esté en Europa. Puedo trabajar para universidades, periódicos o centros de investigación. 
+
+## **3. ¿Cómo voy a ganar?**
+
+>*Para determinar cómo ganar, una organización debe decidir qué le permitirá crear un valor único y ofrecer de manera sostenible ese valor a los clientes de una manera distinta de los competidores de la empresa. Michael Porter lo llamó ventaja competitiva de la manera específica en que una firma utiliza sus ventajas para crear valor superior para un consumidor o un cliente y, a su vez, rendimientos superiores para la firma.*
+
+**Respuesta**: Voy a ganar teniendo disciplina, siguiendo mi path. A parte, voy hacer una página para publicar los trabajos que ya tengo desarrollados. Voy a buscar proyectos para colaborar y hacer una infografía al més por mi cuenta para alimentar mi portafolio. También debo mejorar mi nivel de Inglés y hacer cursos formativos de React y UX/UI.
+
+## **4. ¿Qué capacidades devo tener?**
+>*Dos preguntas fluyen y apoyan el corazón de la estrategia: (1) qué capacidades deben estar en su lugar para ganar, y (2) qué sistemas de gestión se necesitan para apoyar las opciones estratégicas?*
+**Respuesta:** Debo dominar muy bien js, css, html, React, git, AWS y mejorar mi nivel de inglés. También debo mejorar mis métricas de gestión del tiempo y energía y mejorar mis capacidades de trabajar en equipo estudiando scrum.
+
+## **5. Qué sistema de gestión son necesarios?**
+>* La última opción estratégica en la cascada se centra en los sistemas de gestión. Estos son los sistemas que fomentan, apoyan y miden la estrategia. Para ser verdaderamente eficaces, deben estar diseñadas deliberadamente para apoyar las opciones y capacidades.
+
+**Respuesta**: Para la gestión del dia a dia haré una planificación semanal, que a cada semana tiene que ser revisada para ver si estoy siendo productiva o qué ha fallado y qué a funcionado en esta semana.  Utilizaré un kaban para las tareas diarias, así puedo ver a nivel visual qué tareas se fueron cumpliendo y como voy avanzando. A nivel de metricas a largo plazo, tendré un diagrama para guiarme en los próximos dos años para seguir mi estratégia. 
+
+
+
+
+```{mermaid}
+
+gantt
+    title Winning Strategy
+    dateFormat YYYY-MM-DD
+    section 6 meses
+        básico de React: a1, 2024-02-25, 60d
+        Dominar paginas sencillas: a2, 2024-03-25, 180d
+        scrum: a3, 2024-04-25, 60d
+        Dominar git: a1, 2024-02-25, 180d
+
+    section 1 año
+        Aprender sobre interactividad : a4, 2024-08-25, 90d
+        Mejorar inglés: 15, 2024-08-25, 
+        
+    section 1 año y medio
+        Task in Another :2024-08-25, 12d
+        another task    :24d
+
+    section 2 años
+        Task in Another :2024-08-25, 12d
+        another task    :24d
+```
+
+

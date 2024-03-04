@@ -1,0 +1,35 @@
+---
+title: "Java"
+---
+
+# Modelo vista controlador
+
+!(Modelo Vista controlador)[]
+
+![Modelo Vista controlador](/Imagenes/MVC.jpg){.lightbox}
+
+# Programación de objetos
+
+```{mermaid}
+classDiagram 
+Table <|-- > Menu : order
+Table: number
+Menu: name
+Menu: type
+Menu: price
+Menu: dishes
+
+```
+
+
+```{mermaid}
+classDiagram
+    class Order
+    Order : +Fecha
+    Order : +Comanda
+    Order : +Numero Mesa
+    Order : +Numero personas
+    Order : +Menu
+    Order : +Pagado
+
+```

@@ -1,0 +1,16 @@
+---
+title: "About"
+---
+
+![Para no morrir en el intento...](/Imagenes/about.png)
+
+
+Bienvenida a esta plataforma dedicada a documentar detalladamente el viaje de aprendizaje a través del curso ***"Desarrollo de Aplicaciones con Tecnología Web"***, impartido por el centro de formación CIFO Violeta. 
+
+Este espacio ha sido concebido con el propósito de compartir experiencias, conocimientos adquiridos y reflexiones a lo largo de nuestro recorrido educativo. 
+
+A través de esta web, espero ofrecer un vistazo íntimo al proceso de asimilación de conceptos, resolución de desafíos y crecimiento personal que experimentamos como estudiantes comprometidos con el desarrollo de aplicaciones web. 
+
+Te a acompañarme en esta travesía educativa, donde juntas exploraremos las complejidades y posibilidades de la tecnología web, desarrollando habilidades y perspectivas que nos permitirán alcanzar nuevas alturas en nuestro campo profesional. 
+
+¡Empecemos este viaje juntes hacia el mundo de la tecnología web!

@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "e0bd4046"
+  },
+  "about.qmd": {
+    "about.html": "db31e4d8"
+  },
+  "java.qmd": {
+    "java.html": "c94ce382"
+  },
+  "mindset.qmd": {
+    "mindset.html": "cea46cfa"
+  },
+  "react.qmd": {
+    "react.html": "f722161e"
+  },
+  "devop.qmd": {
+    "devop.html": "1f663fa8"
+  },
+  "git.qmd": {
+    "git.html": "465b7e13"
+  },
+  "proyectopersonal.qmd": {
+    "proyectopersonal.html": "4122ce8a"
+  },
+  "scrum.qmd": {
+    "scrum.html": "8c34c8b7"
+  },
+  "quarto.qmd": {
+    "quarto.html": "8e29a928"
+  }
+}

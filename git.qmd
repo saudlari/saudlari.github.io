@@ -1,0 +1,27 @@
+---
+title: "Git"
+---
+
+# Introducción
+
+Git es un **sistema de control de versiones** distribuido ampliamente utilizado para el seguimiento de cambios en el código fuente durante el desarrollo de software. Fue creado por Linus Torvalds en 2005 para gestionar el desarrollo del kernel de Linux, pero desde entonces se ha convertido en una herramienta fundamental en el desarrollo de software en general, pues permite a los desarrolladores colaborar en proyectos de software al mantener un registro de todos los cambios realizados en el código fuente a lo largo del tiempo. 
+
+# Comandos basicos git
+
+1. **git init:** Inicializa un repositorio Git en un directorio local.
+2. **git clone [URL]:** Clona un repositorio Git existente desde una URL remota hacia tu directorio local.
+3. **git add [archivo(s)]:** Agrega archivos al área de preparación para ser incluidos en el próximo commit.
+4. **git commit -m "[mensaje]":** Crea un nuevo commit con los cambios agregados al área de preparación, junto con un mensaje que describe los cambios realizados.
+5. **git status:** Muestra el estado actual del repositorio, incluyendo los cambios sin agregar, los archivos agregados y los commits pendientes.
+6. **git log:** Muestra el historial de commits del repositorio.
+7. **git pull:** Obtiene cambios desde el repositorio remoto y los fusiona con tu rama actual.
+8. **git push:** Sube commits locales al repositorio remoto.
+9. **git branch:** Muestra una lista de ramas locales y resalta la rama actual.
+10. **git checkout [nombre de la rama/archivo]:** Cambia a una rama diferente o restaura un archivo a una versión anterior.
+11. **git merge [nombre de la rama]:** Fusiona los cambios de una rama específica en la rama actual.
+12. **git remote -v:** Muestra los repositorios remotos configurados junto con sus URLs.
+
+
+# 3 trees /zonas para entender git 
+
+![Zonas Git](/Imagenes/working_stage_localrepository.jpg){.lightbox}

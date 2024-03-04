@@ -1,0 +1,31 @@
+---
+title: "Quarto"
+---
+Quarto es un paseador de .md a html. 
+
+
+# ¿Cómo funciona Quarto y su sistema de publicación?
+
+
+![Quarto y su sistema de publicación](/Imagenes/quarto.png){.lightbox}
+
+
+```{mermaid}
+flowchart LR
+    .md-- pandoc --> html
+    html -- git --> github
+    github -- git-pages --> www.tuweb.org
+
+```
+
+# Pandoc
+Pandoc: a universal document converter
+
+
+# Complejidad extensión, dependencias y librerias
+```{mermaid}
+flowchart LR
+    Extensión --> Dependencias
+    Dependencias --> Librerias
+
+```

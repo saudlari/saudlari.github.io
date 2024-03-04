@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Documentación",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Para no morrir en el intento…\n\n\nBienvenida a esta plataforma dedicada a documentar detalladamente el viaje de aprendizaje a través del curso “Desarrollo de Aplicaciones con Tecnología Web”, impartido por el centro de formación CIFO Violeta.\nEste espacio ha sido concebido con el propósito de compartir experiencias, conocimientos adquiridos y reflexiones a lo largo de nuestro recorrido educativo.\nA través de esta web, espero ofrecer un vistazo íntimo al proceso de asimilación de conceptos, resolución de desafíos y crecimiento personal que experimentamos como estudiantes comprometidos con el desarrollo de aplicaciones web.\nTe a acompañarme en esta travesía educativa, donde juntas exploraremos las complejidades y posibilidades de la tecnología web, desarrollando habilidades y perspectivas que nos permitirán alcanzar nuevas alturas en nuestro campo profesional.\n¡Empecemos este viaje juntes hacia el mundo de la tecnología web!"
+  },
+  {
+    "objectID": "java.html",
+    "href": "java.html",
+    "title": "Java",
+    "section": "",
+    "text": "Modelo vista controlador\n!(Modelo Vista controlador)[]\n\n\n\nModelo Vista controlador\n\n\n\n\nProgramación de objetos\n\n\n\n\n\nclassDiagram \nTable &lt;|-- &gt; Menu : order\nTable: number\nMenu: name\nMenu: type\nMenu: price\nMenu: dishes\n\n\n\n\n\n\n\n\n\n\nclassDiagram\n    class Order\n    Order : +Fecha\n    Order : +Comanda\n    Order : +Numero Mesa\n    Order : +Numero personas\n    Order : +Menu\n    Order : +Pagado"
+  },
+  {
+    "objectID": "mindset.html",
+    "href": "mindset.html",
+    "title": "Mindset",
+    "section": "",
+    "text": "Es este apartado se encuentra todo lo relacionado con mindset."
+  },
+  {
+    "objectID": "react.html",
+    "href": "react.html",
+    "title": "React",
+    "section": "",
+    "text": "Estructura carpetas React\nRecordar! Para usar w3css debo instalar por el terminal de visual code, utilizando el comando npm install w3css.\nrouter es una hierramienta de React que está presente en tres carpetas(dominios) muy importantes: layout, pages y routers.\nhttps://albertprofe.dev/reactjs/rjslab5-3.html\nAqui la web de react router: https://reactrouter.com/en/main\n\n\n¿Qué es router en React?\nEs una hierramienta que está presente y crea rutas para tres carpetas(dominios) muy importantes de un proyecto en React: Layout, pages y routers. Para instalar router en react, se puede consultar aquí el paso a paso: https://albertprofe.dev/reactjs/reactjs-app-router.html\n\n\n¿Cómo funciona la hierramienta router?\n\n\n\nEstructura carpetas y router\n\n\nDentro de router hay una función llamada   que define toda la navegación del proyecto. Router gestiona los dominios de pages + layout, pero no gestiona los dominios del proyecto. Ejemplo: No creará rutas entre App.jsx y la carpeta components, por ejemplo.\n utiliza los “path”, que es basicamente la ruta de dónde se importa el componente. El funcionamento de encontrar la ruta es similar a le de una estructura URL.\n\n\n\nEstructura URL"
+  },
+  {
+    "objectID": "mindset.html#logica-negativa",
+    "href": "mindset.html#logica-negativa",
+    "title": "Mindset",
+    "section": "Logica negativa",
+    "text": "Logica negativa\nEs sinónimo de prudencia y sobreviviencia, pero genera un comportamiento inibitorio.\nLa energia es limitada, por lo tanto, es necesario ser prudente en dónde ponemos la energía y no encallar en una cosa u otra.\nLeys de la programación:\n\nVigilar para no caer en el pozo - KeepCalm.\nAnalisar, ir con calma, parar ver si en necesario poner o no energía. Walk 1%.\nPlanifica tu energia:\n\nHaz un planning\nPlanifica &gt; Analisa &gt; Documenta.\n\n\n\n“Para cada problema hay una solución, se trata de conocer el problema y buscar la hierramienta necesaria”."
+  },
+  {
+    "objectID": "devop.html",
+    "href": "devop.html",
+    "title": "DevOp",
+    "section": "",
+    "text": "DevOps es un enfoque que busca acelerar el desarrollo y la entrega de software mediante la integración continua y la colaboración estrecha entre los equipos de desarrollo (Dev) y operaciones (Ops). Promueve la automatización, la comunicación continua y la retroalimentación constante para mejorar la calidad y la eficiencia en todas las etapas del ciclo de vida del desarrollo de software.\nEsto se logra a través de una combinación de cultura, prácticas y herramientas que facilitan la colaboración, la entrega continua y la mejora continua del proceso de desarrollo de software.\n\nExtensiones del curso”Desarrollo de aplicaciones web”\n\n\n\nJava\nReact\n\n\n\n\njson\nhtml\n\n\nxml\ncss\n\n\njava\njsx\n\n\ncsv\njs\n\n\n\n\n\nCategorias de un proyecto\nUn proyecto puede ser divido en cuatro categorias principales\n\nProyecto: view, versiones, interacciones, mockup, configuraciones;\nDomains: controller, models…\nUML: diagrama de cómo se estructura.\nCode: código en si mismo\n\n\n\nIDE’s\n\n\n\nIDEA\nVisual Code\nTMBeans\n\n\n\n\nJava SE - Maven\nQuarto\nMooc\n\n\nSpring boot - Maven\nReact"
+  },
+  {
+    "objectID": "git.html",
+    "href": "git.html",
+    "title": "Git",
+    "section": "",
+    "text": "Introducción\nGit es un sistema de control de versiones distribuido ampliamente utilizado para el seguimiento de cambios en el código fuente durante el desarrollo de software. Fue creado por Linus Torvalds en 2005 para gestionar el desarrollo del kernel de Linux, pero desde entonces se ha convertido en una herramienta fundamental en el desarrollo de software en general, pues permite a los desarrolladores colaborar en proyectos de software al mantener un registro de todos los cambios realizados en el código fuente a lo largo del tiempo.\n\n\nComandos basicos git\n\ngit init: Inicializa un repositorio Git en un directorio local.\ngit clone [URL]: Clona un repositorio Git existente desde una URL remota hacia tu directorio local.\ngit add [archivo(s)]: Agrega archivos al área de preparación para ser incluidos en el próximo commit.\ngit commit -m “[mensaje]”: Crea un nuevo commit con los cambios agregados al área de preparación, junto con un mensaje que describe los cambios realizados.\ngit status: Muestra el estado actual del repositorio, incluyendo los cambios sin agregar, los archivos agregados y los commits pendientes.\ngit log: Muestra el historial de commits del repositorio.\ngit pull: Obtiene cambios desde el repositorio remoto y los fusiona con tu rama actual.\ngit push: Sube commits locales al repositorio remoto.\ngit branch: Muestra una lista de ramas locales y resalta la rama actual.\ngit checkout [nombre de la rama/archivo]: Cambia a una rama diferente o restaura un archivo a una versión anterior.\ngit merge [nombre de la rama]: Fusiona los cambios de una rama específica en la rama actual.\ngit remote -v: Muestra los repositorios remotos configurados junto con sus URLs.\n\n\n\n3 trees /zonas para entender git\n\n\n\nZonas Git"
+  },
+  {
+    "objectID": "mindset.html#planificación-semanal",
+    "href": "mindset.html#planificación-semanal",
+    "title": "Mindset",
+    "section": "Planificación Semanal",
+    "text": "Planificación Semanal\n\n\n\nCuandrante Planificación Semanal"
+  },
+  {
+    "objectID": "proyectopersonal.html",
+    "href": "proyectopersonal.html",
+    "title": "Proyecto personal",
+    "section": "",
+    "text": "Path Proyecto Personal\n\n\nUML Secuencia Proyecto Personal\n\n\n\n\nflowchart LR\n\n  A[Home] --&gt; B{Input Generador de Graficos}\n  A --&gt; C{Page Infografias}\n  A --&gt; D{Page Posts- Reportajes}\n  A --&gt; E{Page About}\n  B --&gt; F[(Database)]\n  E --&gt; G[contacto]\n\n\n\n\n\n\n\n\n\n\nEstructura carpetas Proyecto Personal\n\n\n\nEstructura carpetas\n\n\n\n\nWinning Strategy\nhttps://fs.blog/playing-to-win-how-strategy-really-works/\n\n1. ¿Cuál es mi aspiración?\n\nAspiraciones ganadoras Las aspiraciones son declaraciones sobre el futuro ideal. En una etapa posterior del proceso, una empresa se vincula con esas aspiraciones algunos puntos de referencia específicos que miden el progreso hacia ellos. … Las aspiraciones pueden ser refinadas y revisadas con el tiempo. Sin embargo, las aspiraciones no deberían cambiar día a día; existen para alinear constantemente las actividades dentro de la empresa, por lo que deben diseñarse para durar algún tiempo.\n\nRespuesta: Mi aspiración en ser Front End Developer, especializada en React y infografías interativas. La idea es que mis infografías puedan agrupar dos ejes que me encantan: los datos y el collage creativo.\n##2. ¿Dónde voy a jugar?##\n\nDónde jugar representa el conjunto de opciones que estrechan el campo competitivo. Las preguntas a formular se centran en dónde competirá la empresa, en qué mercados, con los que los clientes y consumidores, en los que se encuentran los canales, en qué categorías de productos y en qué fase vertical o etapas de la industria en cuestión.\n\nRespuesta: Trabajé desde Brasil, porque tengo ganas de estar un tiempo con mi familia, ya que llevo casi 10 años viviendo en España. Mi idea es trabajar desde allí durante 1 año para alguna empresa que esté en Europa. Puedo trabajar para universidades, periódicos o centros de investigación.\n##3. ¿Cómo voy a ganas?##\n\nPara determinar cómo ganar, una organización debe decidir qué le permitirá crear un valor único y ofrecer de manera sostenible ese valor a los clientes de una manera distinta de los competidores de la empresa. Michael Porter lo llamó ventaja competitiva de la manera específica en que una firma utiliza sus ventajas para crear valor superior para un consumidor o un cliente y, a su vez, rendimientos superiores para la firma.\n\nRespuesta: Voy a ganar teniendo disciplina, siguiendo mi path. A parte, voy hacer una página para publicar los trabajos que ya tengo desarrollados. Voy a buscar proyectos para colaborar y hacer una infografía al més por mi cuenta para alimentar mi portafolio. También debo mejorar mi nivel de Inglés.\n##4. ¿Qué capacidades devo tener?##"
+  },
+  {
+    "objectID": "scrum.html",
+    "href": "scrum.html",
+    "title": "Scrum",
+    "section": "",
+    "text": "Scrum es un marco que ayuda a las personas y los equipos a estructurar procesos y gestionar mejor el trabajo. Es un marco de trabajo, que se destaca por su flexibilidad.\n\n4 pilares del scrum\n\n\n\n\nflowchart LR\n  A[Planificar] --&gt; B[Ejecutar]\n  B --&gt; C[Revisar]\n  C --&gt; D[Reflexionar]\n\n\n\n\n\n\n\nLos roles en el scrum\n\nProducto Owner (P.O)\nEs el contacto entre los equipos y los clientes. Tiene como responsabilidad filtrar las demandas y cuidar de las tareas. Es un puente de comunicación\n\n\nScrum master\nFacilita el trabajo dentro de las guias del scrum. https://www.scrum.org Planifica el tiempo del trabajo.\n\n\nDevelopment team\nPersonas con mucha capacidad tecnica. Deben tener adaptabilidad al cambio.\n\n\nCustomers\nSon personas que toman algunas decisiones internas. Ejemplo: administrativos\n\n\nUser\nCliente, la persona que utiliza el producto.\n\n\n\nFuncionamento\n\nBacklog\nEs una lista, un conjunto de tareas totales del proyecto.\n\n\nSprint\nSe trata de lo que debe ser entregado en 2 semanas, algo concentro. Ejemplo: un boton, un componente, etc…"
+  },
+  {
+    "objectID": "scrum.html#producto-owner-p.o",
+    "href": "scrum.html#producto-owner-p.o",
+    "title": "Scrum",
+    "section": "Producto Owner (P.O)",
+    "text": "Producto Owner (P.O)\nEs el contacto entre los equipos y los clientes. Tiene como responsabilidad filtrar las demandas y cuidar de las tareas. Es un puente de comunicación"
+  },
+  {
+    "objectID": "scrum.html#scrum-master",
+    "href": "scrum.html#scrum-master",
+    "title": "Scrum",
+    "section": "Scrum master",
+    "text": "Scrum master\nFacilita el trabajo dentro de las guias del scrum. https://www.scrum.org"
+  },
+  {
+    "objectID": "quarto.html",
+    "href": "quarto.html",
+    "title": "Quarto",
+    "section": "",
+    "text": "Quarto es un paseador de .md a html.\n\n¿Cómo funciona Quarto y su sistema de publicación?\n\n\n\nQuarto y su sistema de publicación\n\n\n\n\n\n\nflowchart LR\n    .md-- pandoc --&gt; html\n    html -- git --&gt; github\n    github -- git-pages --&gt; www.tuweb.org\n\n\n\n\n\n\n\n\nPandoc\nPandoc: a universal document converter\n\n\nComplejidad extensión, dependencias y librerias\n\n\n\n\nflowchart LR\n    Extensión --&gt; Dependencias\n    Dependencias --&gt; Librerias"
+  },
+  {
+    "objectID": "proyectopersonal.html#cuál-es-mi-aspiración",
+    "href": "proyectopersonal.html#cuál-es-mi-aspiración",
+    "title": "Proyecto personal",
+    "section": "1. ¿Cuál es mi aspiración?",
+    "text": "1. ¿Cuál es mi aspiración?\n\nAspiraciones ganadoras Las aspiraciones son declaraciones sobre el futuro ideal. En una etapa posterior del proceso, una empresa se vincula con esas aspiraciones algunos puntos de referencia específicos que miden el progreso hacia ellos. … Las aspiraciones pueden ser refinadas y revisadas con el tiempo. Sin embargo, las aspiraciones no deberían cambiar día a día; existen para alinear constantemente las actividades dentro de la empresa, por lo que deben diseñarse para durar algún tiempo.\n\nRespuesta: Mi aspiración en ser Front End Developer, especializada en React y infografías interativas. La idea es que mis infografías puedan agrupar dos ejes que me encantan: los datos y el collage creativo."
+  },
+  {
+    "objectID": "proyectopersonal.html#dónde-voy-a-jugar",
+    "href": "proyectopersonal.html#dónde-voy-a-jugar",
+    "title": "Proyecto personal",
+    "section": "2. ¿Dónde voy a jugar?",
+    "text": "2. ¿Dónde voy a jugar?\n\nDónde jugar representa el conjunto de opciones que estrechan el campo competitivo. Las preguntas a formular se centran en dónde competirá la empresa, en qué mercados, con los que los clientes y consumidores, en los que se encuentran los canales, en qué categorías de productos y en qué fase vertical o etapas de la industria en cuestión.\n\nRespuesta: Trabajé desde Brasil, porque tengo ganas de estar un tiempo con mi familia, ya que llevo casi 10 años viviendo en España. Mi idea es trabajar desde allí durante 1 año para alguna empresa que esté en Europa. Puedo trabajar para universidades, periódicos o centros de investigación."
+  },
+  {
+    "objectID": "proyectopersonal.html#cómo-voy-a-ganas",
+    "href": "proyectopersonal.html#cómo-voy-a-ganas",
+    "title": "Proyecto personal",
+    "section": "3. ¿Cómo voy a ganas?",
+    "text": "3. ¿Cómo voy a ganas?\n\nPara determinar cómo ganar, una organización debe decidir qué le permitirá crear un valor único y ofrecer de manera sostenible ese valor a los clientes de una manera distinta de los competidores de la empresa. Michael Porter lo llamó ventaja competitiva de la manera específica en que una firma utiliza sus ventajas para crear valor superior para un consumidor o un cliente y, a su vez, rendimientos superiores para la firma.\n\nRespuesta: Voy a ganar teniendo disciplina, siguiendo mi path. A parte, voy hacer una página para publicar los trabajos que ya tengo desarrollados. Voy a buscar proyectos para colaborar y hacer una infografía al més por mi cuenta para alimentar mi portafolio. También debo mejorar mi nivel de Inglés."
+  },
+  {
+    "objectID": "proyectopersonal.html#qué-capacidades-devo-tener",
+    "href": "proyectopersonal.html#qué-capacidades-devo-tener",
+    "title": "Proyecto personal",
+    "section": "4. ¿Qué capacidades devo tener?",
+    "text": "4. ¿Qué capacidades devo tener?\n\nDos preguntas fluyen y apoyan el corazón de la estrategia: (1) qué capacidades deben estar en su lugar para ganar, y (2) qué sistemas de gestión se necesitan para apoyar las opciones estratégicas? Respuesta: Debo dominar muy bien js, css, html, React, git, AWS y mejorar mi nivel de inglés. También debo mejorar mis métricas de gestión del tiempo y energía y mejorar mis capacidades de trabajar en equipo estudiando scrum."
+  },
+  {
+    "objectID": "proyectopersonal.html#cómo-voy-a-ganar",
+    "href": "proyectopersonal.html#cómo-voy-a-ganar",
+    "title": "Proyecto personal",
+    "section": "3. ¿Cómo voy a ganar?",
+    "text": "3. ¿Cómo voy a ganar?\n\nPara determinar cómo ganar, una organización debe decidir qué le permitirá crear un valor único y ofrecer de manera sostenible ese valor a los clientes de una manera distinta de los competidores de la empresa. Michael Porter lo llamó ventaja competitiva de la manera específica en que una firma utiliza sus ventajas para crear valor superior para un consumidor o un cliente y, a su vez, rendimientos superiores para la firma.\n\nRespuesta: Voy a ganar teniendo disciplina, siguiendo mi path. A parte, voy hacer una página para publicar los trabajos que ya tengo desarrollados. Voy a buscar proyectos para colaborar y hacer una infografía al més por mi cuenta para alimentar mi portafolio. También debo mejorar mi nivel de Inglés y hacer cursos formativos de React y UX/UI."
+  },
+  {
+    "objectID": "proyectopersonal.html#qué-sistema-de-gestión-son-necesarios",
+    "href": "proyectopersonal.html#qué-sistema-de-gestión-son-necesarios",
+    "title": "Proyecto personal",
+    "section": "5. Qué sistema de gestión son necesarios?",
+    "text": "5. Qué sistema de gestión son necesarios?\n\n\nLa última opción estratégica en la cascada se centra en los sistemas de gestión. Estos son los sistemas que fomentan, apoyan y miden la estrategia. Para ser verdaderamente eficaces, deben estar diseñadas deliberadamente para apoyar las opciones y capacidades.\n\n\nRespuesta: Para la gestión del dia a dia haré una planificación semanal, que a cada semana tiene que ser revisada para ver si estoy siendo productiva o qué ha fallado y qué a funcionado en esta semana. Utilizaré un kaban para las tareas diarias, así puedo ver a nivel visual qué tareas se fueron cumpliendo y como voy avanzando. A nivel de metricas a largo plazo, tendré un diagrama para guiarme en los próximos dos años para seguir mi estratégia.\n\n\n\n\ngantt\n    title Winning Strategy\n    dateFormat YYYY-MM-DD\n    section 6 meses\n        básico de React: a1, 2024-02-25, 60d\n        Dominar paginas sencillas: a2, 2024-03-25, 180d\n        scrum: a3, 2024-04-25, 60d\n        Dominar git: a1, 2024-02-25, 180d\n\n    section 1 año\n        Aprender sobre interactividad : a4, 2024-08-25, 90d\n        Mejorar inglés: 15, 2024-08-25, \n        \n    section 1 año y medio\n        Task in Another :2024-08-25, 12d\n        another task    :24d\n\n    section 2 años\n        Task in Another :2024-08-25, 12d\n        another task    :24d"
+  }
+]

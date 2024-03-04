@@ -1,0 +1,36 @@
+---
+title: "React"
+---
+
+
+# Estructura carpetas React
+
+
+Recordar! Para usar w3css debo instalar por el terminal de visual code, utilizando el comando npm install w3css.
+
+**router** es una hierramienta de React que está presente en tres carpetas(dominios) muy importantes: layout, pages y routers. 
+
+
+
+<https://albertprofe.dev/reactjs/rjslab5-3.html>
+
+Aqui la web de react router: <https://reactrouter.com/en/main>
+
+# ¿Qué es router en React?
+Es una hierramienta que está presente y crea rutas para tres carpetas(dominios) muy importantes de un proyecto en React: Layout, pages y routers. 
+Para instalar router en react, se puede consultar aquí el paso a paso:  <https://albertprofe.dev/reactjs/reactjs-app-router.html>
+
+# ¿Cómo funciona la hierramienta router?
+
+
+![Estructura carpetas y router](/Imagenes/comofuncinarouter.jpg)
+
+Dentro de router hay una función llamada <browserRouter> </browserRouter> que define toda la navegación del proyecto. 
+Router gestiona los dominios de pages + layout, pero no gestiona los dominios del proyecto. Ejemplo: No creará rutas entre App.jsx y la carpeta components, por ejemplo. 
+
+<browserRouter> utiliza los "path", que es basicamente la ruta de dónde se importa el componente. El funcionamento de encontrar la ruta es similar a le de una estructura URL. 
+
+![Estructura URL](/Imagenes/estructuraURL.jpg)
+
+
+

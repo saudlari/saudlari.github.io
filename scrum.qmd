@@ -1,0 +1,43 @@
+---
+title: "Scrum"
+---
+
+
+
+Scrum es un marco que ayuda a las personas y los equipos a estructurar procesos y gestionar mejor el trabajo. Es un marco de trabajo, que se destaca por su flexibilidad. 
+
+# 4 pilares del scrum
+```{mermaid}
+%%| fig-width: 6.5
+flowchart LR
+  A[Planificar] --> B[Ejecutar]
+  B --> C[Revisar]
+  C --> D[Reflexionar]
+```
+
+# Los roles en el scrum 
+
+#### Producto Owner (P.O)
+Es el contacto entre los equipos y los clientes. Tiene como responsabilidad filtrar las demandas y cuidar de las tareas. 
+Es un puente de comunicación
+
+#### Scrum master
+Facilita el trabajo dentro de las guias del scrum. <https://www.scrum.org> Planifica el tiempo del trabajo. 
+
+#### Development team 
+Personas con mucha capacidad tecnica. Deben tener adaptabilidad al cambio. 
+
+#### Customers
+Son personas que toman algunas decisiones internas. Ejemplo: administrativos
+
+#### User
+Cliente, la persona que utiliza el producto. 
+
+# Funcionamento
+
+#### Backlog
+Es una lista, un conjunto de tareas totales del proyecto. 
+
+#### Sprint
+Se trata de lo que debe ser entregado en 2 semanas, algo concentro. Ejemplo: un boton, un componente, etc... 
+
