@@ -2,6 +2,20 @@
 title: "Vocabulario"
 ---
 
-Vocabulario
-Dominio
-Vista
+# Vocabulario
+
+**Dominio:** Es lo que aparece despues de "/" en una web. ejemplo: larissa.io/home; **/home** es el dominio. En react un dominio es un componente que agrupa varios componentes.  
+
+**Vista:** lo que se imprime en la pantalla, aunque no se cambie el dominio. En React se puede configurar usando un "True"/"False" con el hook useState.   
+
+**Virtual dom:** tecnologia de React que renderiza la web de forma virtual. Sin necesidad de cargar toda la pagina. 
+
+**Hooks**: gestionan los estados en react y hace con que los datos y el return esten en contacto directo. Pueden mejorar o empeorar una web, depende de como se utilizan. Cualquier cambio en el render se hace con un hook. 
+
+**Reducers**: es una función en JS que desacopla el estado global de una APP Web de la parte visual.
+
+**Json**: es una forma de subset de expresar objetos literales.
+
+**Promp**: carga los datos en la pantalla sin enviar a la base de datos.
+
+**SPA:** Simple Page Aplication
