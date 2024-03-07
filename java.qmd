@@ -4,8 +4,6 @@ title: "Java"
 
 # Modelo vista controlador
 
-!(Modelo Vista controlador)[]
-
 ![Modelo Vista controlador](/Imagenes/MVC.jpg){.lightbox}
 
 # Programación de objetos
@@ -33,3 +31,33 @@ classDiagram
     Order : +Pagado
 
 ```
+
+
+
+ # ArrayList y hashmap
+
+![ArrayList y HashMap](/Imagenes/arraylistHashmap.jpeg){.lightbox}
+
+**ArrayList** no hay valor, solo objetos. 
+**Hashmaps** es un mapa de hash. Una colección de datos. 
+
+ #Controller y Manager
+
+![Controller y Manager](/Imagenes/controllerMenuManager.jpeg){.lightbox}
+
+
+Las clases ***menu***, ***table***, ***order*** son clases "core" del Model. Son clases no estáticas. 
+Las clases ***Table manager*** y ***OrderManager*** son clases estáticas. Son clases de gestión. 
+
+**Controller** mando ordenes, pero no ejecuta.
+**Manager** ejecuta.
+
+Los metódos ***no estáticos*** necesitas un objeto para seren ejecutados. 
+
+#Operaciones CRUD
+
+**C**reat
+**R**ead
+**U**pdat
+**D**elet
+

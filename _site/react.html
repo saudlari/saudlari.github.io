@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -125,6 +128,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Quarto</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./apirest.html"> 
+<span class="menu-text">ApiRest</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./vocabulario.html"> 
+<span class="menu-text">Vocabulario</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -147,6 +158,16 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#estructura-carpetas-react" id="toc-estructura-carpetas-react" class="nav-link active" data-scroll-target="#estructura-carpetas-react">Estructura carpetas React</a></li>
   <li><a href="#qué-es-router-en-react" id="toc-qué-es-router-en-react" class="nav-link" data-scroll-target="#qué-es-router-en-react">¿Qué es router en React?</a></li>
   <li><a href="#cómo-funciona-la-hierramienta-router" id="toc-cómo-funciona-la-hierramienta-router" class="nav-link" data-scroll-target="#cómo-funciona-la-hierramienta-router">¿Cómo funciona la hierramienta router?</a></li>
+  <li><a href="#hay-dos-tipos-de-atentificaciones-basicas-jwt-y-oauth" id="toc-hay-dos-tipos-de-atentificaciones-basicas-jwt-y-oauth" class="nav-link" data-scroll-target="#hay-dos-tipos-de-atentificaciones-basicas-jwt-y-oauth">Hay dos tipos de atentificaciones basicas: JWT y oauth</a></li>
+  <li><a href="#qué-necesito-para-hacer-un-formulario-en-react" id="toc-qué-necesito-para-hacer-un-formulario-en-react" class="nav-link" data-scroll-target="#qué-necesito-para-hacer-un-formulario-en-react">Qué necesito para hacer un formulario en React?</a></li>
+  <li><a href="#paseadores" id="toc-paseadores" class="nav-link" data-scroll-target="#paseadores">Paseadores</a></li>
+  <li><a href="#cycle-request-response" id="toc-cycle-request-response" class="nav-link" data-scroll-target="#cycle-request-response">Cycle Request Response</a></li>
+  <li><a href="#css" id="toc-css" class="nav-link" data-scroll-target="#css">Css:</a></li>
+  <li><a href="#frameworks" id="toc-frameworks" class="nav-link" data-scroll-target="#frameworks">Frameworks</a></li>
+  <li><a href="#single-page-aplication" id="toc-single-page-aplication" class="nav-link" data-scroll-target="#single-page-aplication">Single Page Aplication</a>
+  <ul class="collapse">
+  <li><a href="#hooks" id="toc-hooks" class="nav-link" data-scroll-target="#hooks">Hooks</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -199,8 +220,95 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>Estructura URL</figcaption>
 </figure>
 </div>
+</section>
+<section id="hay-dos-tipos-de-atentificaciones-basicas-jwt-y-oauth" class="level1">
+<h1>Hay dos tipos de atentificaciones basicas: JWT y oauth</h1>
+<p>JWT: jason web token. Es el tipo de autenficación más comun. Te da un token de acceso.</p>
+<p>Apirest: la hierramienta que permite llevar y traer json. Axios: hierramienta que hace las peticiones a la APIREST Axios: hace las operaciones CRUD Axios hace peticiones a ApiRest y ApiRest lleva y trae (importa) los datos de mockapi.</p>
+<p>C:Creat R: Read U: Update D: Delete</p>
+</section>
+<section id="qué-necesito-para-hacer-un-formulario-en-react" class="level1">
+<h1>Qué necesito para hacer un formulario en React?</h1>
+<ul>
+<li>hook usestate</li>
+<li>for spread</li>
+<li>array de objeto literal</li>
+<li>mapping</li>
+<li>onlick (e)</li>
+<li>data structure</li>
+</ul>
+</section>
+<section id="paseadores" class="level1">
+<h1>Paseadores</h1>
+<p>En reat siempre hay paseo entre Array, Json y Strings.</p>
+</section>
+<section id="cycle-request-response" class="level1">
+<h1>Cycle Request Response</h1>
+</section>
+<section id="css" class="level1">
+<h1>Css:</h1>
+<p>https://semantic-ui.com/</p>
+</section>
+<section id="frameworks" class="level1">
+<h1>Frameworks</h1>
+<p><a href="https://remix.run/" class="uri">https://remix.run/</a></p>
+<p>Vite - Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.</p>
+<p>Vite - <a href="https://vitejs.dev" class="uri">https://vitejs.dev</a></p>
+<p>w3.css - <a href="https://www.w3schools.com/w3css/default.asp" class="uri">https://www.w3schools.com/w3css/default.asp</a></p>
+<p>los contenidos que están en Idex.hmtl son los que se envían al cliente.</p>
+<p>fakerjs.dev - sirve para hacer fakers de prueba con la web para probarla.</p>
+<p>Los componentes se organizan por vista.</p>
+</section>
+<section id="single-page-aplication" class="level1">
+<h1>Single Page Aplication</h1>
+<p><a href="./Imagenes/spa.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="SPA"><img src="./Imagenes/spa.jpeg" class="img-fluid" alt="SPA"></a> SPA: Simple Page Aplication</p>
+<p><strong>SPA</strong>: Se guarda los datos en la cache del cliente <strong>Server-Render:</strong>: Se guardan los atos en los servidores. <strong>Multipage</strong>: Renderiza las paginas por separado</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Como praxis, en react cada componente es un .jsx</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Los archivos .js son archivos que no serán renderizados</p>
+</div>
+</div>
+<section id="hooks" class="level2">
+<h2 class="anchored" data-anchor-id="hooks">Hooks</h2>
+<p>Gestionan los estados en react y hace con que los datos y el return esten en contacto directo. Pueden mejorar o empeorar una web, depende de como se utilizan. Cualquier cambio en el render se hace con un hook.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./Imagenes/hooks.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="hooks"><img src="./Imagenes/hooks.jpeg" class="img-fluid figure-img" alt="hooks"></a></p>
+<figcaption>hooks</figcaption>
+</figure>
+</div>
+<ol type="1">
+<li>Boton</li>
+<li>cambio de estado</li>
+<li>Renderiza</li>
+</ol>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-2">hooks</span>
+</div>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -587,6 +695,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

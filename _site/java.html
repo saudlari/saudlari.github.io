@@ -131,6 +131,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Quarto</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./apirest.html"> 
+<span class="menu-text">ApiRest</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./vocabulario.html"> 
+<span class="menu-text">Vocabulario</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -182,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 <p>!(Modelo Vista controlador)[]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./Imagenes/MVC.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1" title="Modelo Vista controlador"><img src="./Imagenes/MVC.jpg" class="img-fluid figure-img" alt="Modelo Vista controlador"></a></p>
+<p><a href="./Imagenes/MVC.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Modelo Vista controlador"><img src="./Imagenes/MVC.jpg" class="img-fluid figure-img" alt="Modelo Vista controlador"></a></p>
 <figcaption>Modelo Vista controlador</figcaption>
 </figure>
 </div>
@@ -228,10 +236,32 @@ Menu: dishes
 </div>
 </div>
 </div>
+<p># ArrayList y hashmap</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./Imagenes/arraylistHashmap.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="ArrayList y HashMap"><img src="./Imagenes/arraylistHashmap.jpeg" class="img-fluid figure-img" alt="ArrayList y HashMap"></a></p>
+<figcaption>ArrayList y HashMap</figcaption>
+</figure>
+</div>
+<p><strong>ArrayList</strong> no hay valor, solo objetos. <strong>Hashmaps</strong> es un mapa de hash. Una colección de datos.</p>
+<p># Controller y Manager</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./Imagenes/controllerMenuManager.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Controller y Manager"><img src="./Imagenes/controllerMenuManager.jpeg" class="img-fluid figure-img" alt="Controller y Manager"></a></p>
+<figcaption>Controller y Manager</figcaption>
+</figure>
+</div>
+<p>Las clases <strong><em>menu</em></strong>, <strong><em>table</em></strong>, <strong><em>order</em></strong> son clases “core” del Moder. Son clases no estáticas. Las clases <strong><em>Table manager</em></strong> y <strong><em>OrderManager</em></strong> son clases estáticas. Son clases de gestión.</p>
+<p><strong>Controller</strong> mando ordenes, pero no ejecuta. <strong>Manager</strong> ejecuta.</p>
+<p>Los metódos <strong><em>no estáticos</em></strong> necesitas un objeto para seren ejecutados.</p>
+<p>#Operaciones CRUD</p>
+<p><strong>C</strong>reat <strong>R</strong>ead <strong>U</strong>pdat <strong>D</strong>elet</p>
 
 
 <div class="hidden" aria-hidden="true">
 <span class="glightbox-desc lightbox-desc-1">Modelo Vista controlador</span>
+<span class="glightbox-desc lightbox-desc-2">ArrayList y HashMap</span>
+<span class="glightbox-desc lightbox-desc-3">Controller y Manager</span>
 </div>
 </section>
 
@@ -619,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"loop":false,"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

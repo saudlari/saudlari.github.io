@@ -18,7 +18,7 @@
     "href": "java.html",
     "title": "Java",
     "section": "",
-    "text": "Modelo vista controlador\n!(Modelo Vista controlador)[]\n\n\n\nModelo Vista controlador\n\n\n\n\nProgramación de objetos\n\n\n\n\n\nclassDiagram \nTable &lt;|-- &gt; Menu : order\nTable: number\nMenu: name\nMenu: type\nMenu: price\nMenu: dishes\n\n\n\n\n\n\n\n\n\n\n\n\nclassDiagram\n    class Order\n    Order : +Fecha\n    Order : +Comanda\n    Order : +Numero Mesa\n    Order : +Numero personas\n    Order : +Menu\n    Order : +Pagado\n\n\n\n\n\n\n\n\n\n\nModelo Vista controlador"
+    "text": "Modelo vista controlador\n!(Modelo Vista controlador)[]\n\n\n\nModelo Vista controlador\n\n\n\n\nProgramación de objetos\n\n\n\n\n\nclassDiagram \nTable &lt;|-- &gt; Menu : order\nTable: number\nMenu: name\nMenu: type\nMenu: price\nMenu: dishes\n\n\n\n\n\n\n\n\n\n\n\n\nclassDiagram\n    class Order\n    Order : +Fecha\n    Order : +Comanda\n    Order : +Numero Mesa\n    Order : +Numero personas\n    Order : +Menu\n    Order : +Pagado\n\n\n\n\n\n\n\n# ArrayList y hashmap\n\n\n\nArrayList y HashMap\n\n\nArrayList no hay valor, solo objetos. Hashmaps es un mapa de hash. Una colección de datos.\n# Controller y Manager\n\n\n\nController y Manager\n\n\nLas clases menu, table, order son clases “core” del Moder. Son clases no estáticas. Las clases Table manager y OrderManager son clases estáticas. Son clases de gestión.\nController mando ordenes, pero no ejecuta. Manager ejecuta.\nLos metódos no estáticos necesitas un objeto para seren ejecutados.\n#Operaciones CRUD\nCreat Read Updat Delet\n\n\n\nModelo Vista controlador\nArrayList y HashMap\nController y Manager"
   },
   {
     "objectID": "mindset.html",
@@ -32,7 +32,7 @@
     "href": "react.html",
     "title": "React",
     "section": "",
-    "text": "Estructura carpetas React\nRecordar! Para usar w3css debo instalar por el terminal de visual code, utilizando el comando npm install w3css.\nrouter es una hierramienta de React que está presente en tres carpetas(dominios) muy importantes: layout, pages y routers.\nhttps://albertprofe.dev/reactjs/rjslab5-3.html\nAqui la web de react router: https://reactrouter.com/en/main\n\n\n¿Qué es router en React?\nEs una hierramienta que está presente y crea rutas para tres carpetas(dominios) muy importantes de un proyecto en React: Layout, pages y routers. Para instalar router en react, se puede consultar aquí el paso a paso: https://albertprofe.dev/reactjs/reactjs-app-router.html\n\n\n¿Cómo funciona la hierramienta router?\n\n\n\nEstructura carpetas y router\n\n\nDentro de router hay una función llamada   que define toda la navegación del proyecto. Router gestiona los dominios de pages + layout, pero no gestiona los dominios del proyecto. Ejemplo: No creará rutas entre App.jsx y la carpeta components, por ejemplo.\n utiliza los “path”, que es basicamente la ruta de dónde se importa el componente. El funcionamento de encontrar la ruta es similar a le de una estructura URL.\n\n\n\nEstructura URL"
+    "text": "Recordar! Para usar w3css debo instalar por el terminal de visual code, utilizando el comando npm install w3css.\nrouter es una hierramienta de React que está presente en tres carpetas(dominios) muy importantes: layout, pages y routers.\nhttps://albertprofe.dev/reactjs/rjslab5-3.html\nAqui la web de react router: https://reactrouter.com/en/main"
   },
   {
     "objectID": "mindset.html#logica-negativa",
@@ -142,16 +142,16 @@
   {
     "objectID": "apirest.html",
     "href": "apirest.html",
-    "title": "Documentación",
+    "title": "ApiRest",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nhttps://mockapi.io/ - web que sirve para hacer simulaciones de un servidor fake."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nhttps://mockapi.io/ - web que sirve para hacer simulaciones de un servidor fake.\nPagina similar a mockapi, pero un poco más compleja a nivel de servidor. https://beeceptor.com/"
   },
   {
     "objectID": "vocabulario.html",
     "href": "vocabulario.html",
-    "title": "Documentación",
+    "title": "Vocabulario",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nKanban organizativo: https://cryptpad.fr/kanban/#/2/kanban/edit/uFh4cMI0WPKQADfVZhKXLsC+/"
+    "text": "Vocabulario Dominio Vista"
   },
   {
     "objectID": "git.html#situacion-linear",
@@ -173,5 +173,12 @@
     "title": "Git",
     "section": "Nueva Rama",
     "text": "Nueva Rama\n\n\n\nSituación Revert Git\n\n\n\n\n\nZonas Git\nMapa Git\nSituación linear en Git\nSituación Revert Git\nSituación Revert Git"
+  },
+  {
+    "objectID": "react.html#hooks",
+    "href": "react.html#hooks",
+    "title": "React",
+    "section": "Hooks",
+    "text": "Hooks\nGestionan los estados en react y hace con que los datos y el return esten en contacto directo. Pueden mejorar o empeorar una web, depende de como se utilizan. Cualquier cambio en el render se hace con un hook.\n\n\n\nhooks\n\n\n\nBoton\ncambio de estado\nRenderiza\n\n\n\n\nhooks"
   }
 ]

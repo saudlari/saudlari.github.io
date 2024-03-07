@@ -1,5 +1,5 @@
 ---
-title: "Documentación"
+title: "ApiRest"
 ---
 
 This is a Quarto website.
@@ -10,3 +10,4 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 https://mockapi.io/ - web que sirve para hacer simulaciones de un servidor fake. 
 
 
+Pagina similar a mockapi, pero un poco más compleja a nivel de servidor. <https://beeceptor.com/>

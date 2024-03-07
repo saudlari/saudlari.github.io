@@ -15,7 +15,11 @@ website:
       - proyectopersonal.qmd
       - scrum.qmd
       - quarto.qmd
+      - apirest.qmd
+      - vocabulario.qmd
       - about.qmd
+     
+      
 
 format:
   html:
