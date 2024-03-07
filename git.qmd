@@ -25,3 +25,49 @@ Git es un **sistema de control de versiones** distribuido ampliamente utilizado 
 # 3 trees /zonas para entender git 
 
 ![Zonas Git](/Imagenes/working_stage_localrepository.jpg){.lightbox}
+
+
+
+**Stage:** es una zona de confirmación
+![Stage Git](/Imagenes/stage.jpeg){.lightbox}
+
+# Mapa Git
+![Mapa Git](/Imagenes/mapagit.jpeg){.lightbox}
+
+
+# Revert y Nueva Rama
+
+### Situacion Linear
+![Situación linear en Git](/Imagenes/lineargit.jpeg){.lightbox}
+
+### Revert
+```c 
+git revert [--[no-]edit] [-n] [-m <parent-number>] [-s] [-S[<keyid>]] <commit>…​
+git revert (--continue | --skip | --abort | --quit)}
+```
+![Situación Revert Git](/Imagenes/revertgit.jpeg){.lightbox}
+
+### Nueva Rama
+```c
+$ git branch <new-branch>
+```
+![Situación New Branch](/Imagenes/crearnuevarama.jpeg){.lightbox}
+
+
+### Git Switch
+```c
+$ git switch <new-branch>
+```
+![Situación switch](/Imagenes/gitswitch.jpeg){.lightbox}
+
+
+### Git Switch -
+```c
+git switch [<options>] [--no-guess] <branch>
+git switch [<options>] --detach [<start-point>]
+git switch [<options>] (-c|-C) <new-branch> [<start-point>]
+git switch [<options>] --orphan <new-branch>
+```
+![Git switch](/Imagenes/gitSwitchMenos.jpeg){.lightbox}
+
+

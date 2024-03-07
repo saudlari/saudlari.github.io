@@ -1,0 +1,9 @@
+---
+title: "Documentación"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+Kanban organizativo: https://cryptpad.fr/kanban/#/2/kanban/edit/uFh4cMI0WPKQADfVZhKXLsC+/

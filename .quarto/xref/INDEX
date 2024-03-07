@@ -28,5 +28,11 @@
   },
   "quarto.qmd": {
     "quarto.html": "8e29a928"
+  },
+  "vocabulario.qmd": {
+    "vocabulario.html": "727150ec"
+  },
+  "apirest.qmd": {
+    "apirest.html": "790b25a4"
   }
 }

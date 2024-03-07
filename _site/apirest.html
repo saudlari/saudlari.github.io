@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Documentación - Git</title>
+<title>Documentación</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -73,9 +39,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -138,7 +101,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Mindset</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./git.html" aria-current="page"> 
+    <a class="nav-link" href="./git.html"> 
 <span class="menu-text">Git</span></a>
   </li>  
   <li class="nav-item">
@@ -177,31 +140,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
-  <li><a href="#comandos-basicos-git" id="toc-comandos-basicos-git" class="nav-link" data-scroll-target="#comandos-basicos-git">Comandos basicos git</a></li>
-  <li><a href="#trees-zonas-para-entender-git" id="toc-trees-zonas-para-entender-git" class="nav-link" data-scroll-target="#trees-zonas-para-entender-git">3 trees /zonas para entender git</a></li>
-  <li><a href="#mapa-git" id="toc-mapa-git" class="nav-link" data-scroll-target="#mapa-git">Mapa Git</a></li>
-  <li><a href="#revert-y-nueva-rama" id="toc-revert-y-nueva-rama" class="nav-link" data-scroll-target="#revert-y-nueva-rama">Revert y Nueva Rama</a>
-  <ul class="collapse">
-  <li><a href="#situacion-linear" id="toc-situacion-linear" class="nav-link" data-scroll-target="#situacion-linear">Situacion Linear</a></li>
-  <li><a href="#revert" id="toc-revert" class="nav-link" data-scroll-target="#revert">Revert</a></li>
-  <li><a href="#nueva-rama" id="toc-nueva-rama" class="nav-link" data-scroll-target="#nueva-rama">Nueva Rama</a></li>
-  <li><a href="#git-switch" id="toc-git-switch" class="nav-link" data-scroll-target="#git-switch">Git Switch</a></li>
-  <li><a href="#git-switch--" id="toc-git-switch--" class="nav-link" data-scroll-target="#git-switch--">Git Switch -</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Git</h1>
+<h1 class="title">Documentación</h1>
 </div>
 
 
@@ -218,113 +164,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="introducción" class="level1">
-<h1>Introducción</h1>
-<p>Git es un <strong>sistema de control de versiones</strong> distribuido ampliamente utilizado para el seguimiento de cambios en el código fuente durante el desarrollo de software. Fue creado por Linus Torvalds en 2005 para gestionar el desarrollo del kernel de Linux, pero desde entonces se ha convertido en una herramienta fundamental en el desarrollo de software en general, pues permite a los desarrolladores colaborar en proyectos de software al mantener un registro de todos los cambios realizados en el código fuente a lo largo del tiempo.</p>
-</section>
-<section id="comandos-basicos-git" class="level1">
-<h1>Comandos basicos git</h1>
-<ol type="1">
-<li><strong>git init:</strong> Inicializa un repositorio Git en un directorio local.</li>
-<li><strong>git clone [URL]:</strong> Clona un repositorio Git existente desde una URL remota hacia tu directorio local.</li>
-<li><strong>git add [archivo(s)]:</strong> Agrega archivos al área de preparación para ser incluidos en el próximo commit.</li>
-<li><strong>git commit -m “[mensaje]”:</strong> Crea un nuevo commit con los cambios agregados al área de preparación, junto con un mensaje que describe los cambios realizados.</li>
-<li><strong>git status:</strong> Muestra el estado actual del repositorio, incluyendo los cambios sin agregar, los archivos agregados y los commits pendientes.</li>
-<li><strong>git log:</strong> Muestra el historial de commits del repositorio.</li>
-<li><strong>git pull:</strong> Obtiene cambios desde el repositorio remoto y los fusiona con tu rama actual.</li>
-<li><strong>git push:</strong> Sube commits locales al repositorio remoto.</li>
-<li><strong>git branch:</strong> Muestra una lista de ramas locales y resalta la rama actual.</li>
-<li><strong>git checkout [nombre de la rama/archivo]:</strong> Cambia a una rama diferente o restaura un archivo a una versión anterior.</li>
-<li><strong>git merge [nombre de la rama]:</strong> Fusiona los cambios de una rama específica en la rama actual.</li>
-<li><strong>git remote -v:</strong> Muestra los repositorios remotos configurados junto con sus URLs.</li>
-</ol>
-</section>
-<section id="trees-zonas-para-entender-git" class="level1">
-<h1>3 trees /zonas para entender git</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./Imagenes/working_stage_localrepository.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Zonas Git"><img src="./Imagenes/working_stage_localrepository.jpg" class="img-fluid figure-img" alt="Zonas Git"></a></p>
-<figcaption>Zonas Git</figcaption>
-</figure>
-</div>
-<p><strong>Stage:</strong> es una zona de confirmación <a href="./Imagenes/stage.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Stage Git"><img src="./Imagenes/stage.jpeg" class="img-fluid" alt="Stage Git"></a></p>
-</section>
-<section id="mapa-git" class="level1">
-<h1>Mapa Git</h1>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./Imagenes/mapagit.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="quarto-lightbox-gallery-3" title="Mapa Git"><img src="./Imagenes/mapagit.jpeg" class="img-fluid figure-img" alt="Mapa Git"></a></p>
-<figcaption>Mapa Git</figcaption>
-</figure>
-</div>
-</section>
-<section id="revert-y-nueva-rama" class="level1">
-<h1>Revert y Nueva Rama</h1>
-<section id="situacion-linear" class="level3">
-<h3 class="anchored" data-anchor-id="situacion-linear">Situacion Linear</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./Imagenes/lineargit.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="Situación linear en Git"><img src="./Imagenes/lineargit.jpeg" class="img-fluid figure-img" alt="Situación linear en Git"></a></p>
-<figcaption>Situación linear en Git</figcaption>
-</figure>
-</div>
-</section>
-<section id="revert" class="level3">
-<h3 class="anchored" data-anchor-id="revert">Revert</h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode c code-with-copy"><code class="sourceCode c"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>git revert <span class="op">[--[</span>no<span class="op">-]</span>edit<span class="op">]</span> <span class="op">[-</span>n<span class="op">]</span> <span class="op">[-</span>m <span class="op">&lt;</span>parent<span class="op">-</span>number<span class="op">&gt;]</span> <span class="op">[-</span>s<span class="op">]</span> <span class="op">[-</span>S<span class="op">[&lt;</span>keyid<span class="op">&gt;]]</span> <span class="op">&lt;</span>commit<span class="op">&gt;</span>…​</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>git revert <span class="op">(--</span><span class="cf">continue</span> <span class="op">|</span> <span class="op">--</span>skip <span class="op">|</span> <span class="op">--</span>abort <span class="op">|</span> <span class="op">--</span>quit<span class="op">)}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./Imagenes/revertgit.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-5" data-gallery="quarto-lightbox-gallery-5" title="Situación Revert Git"><img src="./Imagenes/revertgit.jpeg" class="img-fluid figure-img" alt="Situación Revert Git"></a></p>
-<figcaption>Situación Revert Git</figcaption>
-</figure>
-</div>
-</section>
-<section id="nueva-rama" class="level3">
-<h3 class="anchored" data-anchor-id="nueva-rama">Nueva Rama</h3>
-<div class="sourceCode" id="cb2"><pre class="sourceCode c code-with-copy"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>$ git branch <span class="op">&lt;</span>new<span class="op">-</span>branch<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./Imagenes/crearnuevarama.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-6" data-gallery="quarto-lightbox-gallery-6" title="Situación New Branch"><img src="./Imagenes/crearnuevarama.jpeg" class="img-fluid figure-img" alt="Situación New Branch"></a></p>
-<figcaption>Situación New Branch</figcaption>
-</figure>
-</div>
-</section>
-<section id="git-switch" class="level3">
-<h3 class="anchored" data-anchor-id="git-switch">Git Switch</h3>
-<div class="sourceCode" id="cb3"><pre class="sourceCode c code-with-copy"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>$ git <span class="cf">switch</span> <span class="op">&lt;</span>new<span class="op">-</span>branch<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./Imagenes/gitswitch.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-7" data-gallery="quarto-lightbox-gallery-7" title="Situación switch"><img src="./Imagenes/gitswitch.jpeg" class="img-fluid figure-img" alt="Situación switch"></a></p>
-<figcaption>Situación switch</figcaption>
-</figure>
-</div>
-</section>
-<section id="git-switch--" class="level3">
-<h3 class="anchored" data-anchor-id="git-switch--">Git Switch -</h3>
-<div class="sourceCode" id="cb4"><pre class="sourceCode c code-with-copy"><code class="sourceCode c"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>git <span class="cf">switch</span> <span class="op">[&lt;</span>options<span class="op">&gt;]</span> <span class="op">[--</span>no<span class="op">-</span>guess<span class="op">]</span> <span class="op">&lt;</span>branch<span class="op">&gt;</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>git <span class="cf">switch</span> <span class="op">[&lt;</span>options<span class="op">&gt;]</span> <span class="op">--</span>detach <span class="op">[&lt;</span>start<span class="op">-</span>point<span class="op">&gt;]</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>git <span class="cf">switch</span> <span class="op">[&lt;</span>options<span class="op">&gt;]</span> <span class="op">(-</span>c<span class="op">|-</span>C<span class="op">)</span> <span class="op">&lt;</span>new<span class="op">-</span>branch<span class="op">&gt;</span> <span class="op">[&lt;</span>start<span class="op">-</span>point<span class="op">&gt;]</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>git <span class="cf">switch</span> <span class="op">[&lt;</span>options<span class="op">&gt;]</span> <span class="op">--</span>orphan <span class="op">&lt;</span>new<span class="op">-</span>branch<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./Imagenes/gitSwitchMenos.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-8" data-gallery="quarto-lightbox-gallery-8" title="Git switch"><img src="./Imagenes/gitSwitchMenos.jpeg" class="img-fluid figure-img" alt="Git switch"></a></p>
-<figcaption>Git switch</figcaption>
-</figure>
-</div>
+<p>This is a Quarto website.</p>
+<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<p>https://mockapi.io/ - web que sirve para hacer simulaciones de un servidor fake.</p>
 
 
-<div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Zonas Git</span>
-<span class="glightbox-desc lightbox-desc-3">Mapa Git</span>
-<span class="glightbox-desc lightbox-desc-4">Situación linear en Git</span>
-<span class="glightbox-desc lightbox-desc-5">Situación Revert Git</span>
-<span class="glightbox-desc lightbox-desc-6">Situación New Branch</span>
-<span class="glightbox-desc lightbox-desc-7">Situación switch</span>
-<span class="glightbox-desc lightbox-desc-8">Git switch</span>
-</div>
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -710,31 +554,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 

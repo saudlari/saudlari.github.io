@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Documentación",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nKanban organizativo: https://cryptpad.fr/kanban/#/2/kanban/edit/uFh4cMI0WPKQADfVZhKXLsC+/"
   },
   {
     "objectID": "about.html",
@@ -53,7 +53,7 @@
     "href": "git.html",
     "title": "Git",
     "section": "",
-    "text": "Introducción\nGit es un sistema de control de versiones distribuido ampliamente utilizado para el seguimiento de cambios en el código fuente durante el desarrollo de software. Fue creado por Linus Torvalds en 2005 para gestionar el desarrollo del kernel de Linux, pero desde entonces se ha convertido en una herramienta fundamental en el desarrollo de software en general, pues permite a los desarrolladores colaborar en proyectos de software al mantener un registro de todos los cambios realizados en el código fuente a lo largo del tiempo.\n\n\nComandos basicos git\n\ngit init: Inicializa un repositorio Git en un directorio local.\ngit clone [URL]: Clona un repositorio Git existente desde una URL remota hacia tu directorio local.\ngit add [archivo(s)]: Agrega archivos al área de preparación para ser incluidos en el próximo commit.\ngit commit -m “[mensaje]”: Crea un nuevo commit con los cambios agregados al área de preparación, junto con un mensaje que describe los cambios realizados.\ngit status: Muestra el estado actual del repositorio, incluyendo los cambios sin agregar, los archivos agregados y los commits pendientes.\ngit log: Muestra el historial de commits del repositorio.\ngit pull: Obtiene cambios desde el repositorio remoto y los fusiona con tu rama actual.\ngit push: Sube commits locales al repositorio remoto.\ngit branch: Muestra una lista de ramas locales y resalta la rama actual.\ngit checkout [nombre de la rama/archivo]: Cambia a una rama diferente o restaura un archivo a una versión anterior.\ngit merge [nombre de la rama]: Fusiona los cambios de una rama específica en la rama actual.\ngit remote -v: Muestra los repositorios remotos configurados junto con sus URLs.\n\n\n\n3 trees /zonas para entender git\n\n\n\nZonas Git\n\n\n\n\n\nZonas Git"
+    "text": "Introducción\nGit es un sistema de control de versiones distribuido ampliamente utilizado para el seguimiento de cambios en el código fuente durante el desarrollo de software. Fue creado por Linus Torvalds en 2005 para gestionar el desarrollo del kernel de Linux, pero desde entonces se ha convertido en una herramienta fundamental en el desarrollo de software en general, pues permite a los desarrolladores colaborar en proyectos de software al mantener un registro de todos los cambios realizados en el código fuente a lo largo del tiempo.\n\n\nComandos basicos git\n\ngit init: Inicializa un repositorio Git en un directorio local.\ngit clone [URL]: Clona un repositorio Git existente desde una URL remota hacia tu directorio local.\ngit add [archivo(s)]: Agrega archivos al área de preparación para ser incluidos en el próximo commit.\ngit commit -m “[mensaje]”: Crea un nuevo commit con los cambios agregados al área de preparación, junto con un mensaje que describe los cambios realizados.\ngit status: Muestra el estado actual del repositorio, incluyendo los cambios sin agregar, los archivos agregados y los commits pendientes.\ngit log: Muestra el historial de commits del repositorio.\ngit pull: Obtiene cambios desde el repositorio remoto y los fusiona con tu rama actual.\ngit push: Sube commits locales al repositorio remoto.\ngit branch: Muestra una lista de ramas locales y resalta la rama actual.\ngit checkout [nombre de la rama/archivo]: Cambia a una rama diferente o restaura un archivo a una versión anterior.\ngit merge [nombre de la rama]: Fusiona los cambios de una rama específica en la rama actual.\ngit remote -v: Muestra los repositorios remotos configurados junto con sus URLs.\n\n\n\n3 trees /zonas para entender git\n\n\n\nZonas Git\n\n\nStage: es una zona de confirmación \n\n\nMapa Git\n\n\n\nMapa Git\n\n\n\n\nRevert y Nueva Rama\n\nSituacion Linear\n\n\n\nSituación linear en Git\n\n\n\n\nRevert\ngit revert [--[no-]edit] [-n] [-m &lt;parent-number&gt;] [-s] [-S[&lt;keyid&gt;]] &lt;commit&gt;…​\ngit revert (--continue | --skip | --abort | --quit)}\n\n\n\nSituación Revert Git\n\n\n\n\nNueva Rama\n$ git branch &lt;new-branch&gt;\n\n\n\nSituación New Branch\n\n\n\n\nGit Switch\n$ git switch &lt;new-branch&gt;\n\n\n\nSituación switch\n\n\n\n\nGit Switch -\ngit switch [&lt;options&gt;] [--no-guess] &lt;branch&gt;\ngit switch [&lt;options&gt;] --detach [&lt;start-point&gt;]\ngit switch [&lt;options&gt;] (-c|-C) &lt;new-branch&gt; [&lt;start-point&gt;]\ngit switch [&lt;options&gt;] --orphan &lt;new-branch&gt;\n\n\n\nGit switch\n\n\n\n\n\nZonas Git\nMapa Git\nSituación linear en Git\nSituación Revert Git\nSituación New Branch\nSituación switch\nGit switch"
   },
   {
     "objectID": "mindset.html#planificación-semanal",
@@ -138,5 +138,40 @@
     "title": "Proyecto personal",
     "section": "5. Qué sistema de gestión son necesarios?",
     "text": "5. Qué sistema de gestión son necesarios?\n\n\nLa última opción estratégica en la cascada se centra en los sistemas de gestión. Estos son los sistemas que fomentan, apoyan y miden la estrategia. Para ser verdaderamente eficaces, deben estar diseñadas deliberadamente para apoyar las opciones y capacidades.\n\n\nRespuesta: Para la gestión del dia a dia haré una planificación semanal, que a cada semana tiene que ser revisada para ver si estoy siendo productiva o qué ha fallado y qué a funcionado en esta semana. Utilizaré un kaban para las tareas diarias, así puedo ver a nivel visual qué tareas se fueron cumpliendo y como voy avanzando. A nivel de metricas a largo plazo, tendré un diagrama para guiarme en los próximos dos años para seguir mi estratégia.\n\n\n\n\n\ngantt\n    title Winning Strategy\n    dateFormat YYYY-MM-DD\n    section 6 meses\n        básico de React: a1, 2024-02-25, 60d\n        Dominar paginas sencillas: a2, 2024-03-25, 180d\n        scrum: a3, 2024-04-25, 60d\n        Dominar git: a1, 2024-02-25, 180d\n\n    section 1 año\n        Aprender sobre interactividad : a4, 2024-08-25, 90d\n        Mejorar inglés: 15, 2024-08-25, \n        \n    section 1 año y medio\n        Task in Another :2024-08-25, 12d\n        another task    :24d\n\n    section 2 años\n        Task in Another :2024-08-25, 12d\n        another task    :24d\n\n\n\n\n\n\n\n\n\nEstructura carpetas"
+  },
+  {
+    "objectID": "apirest.html",
+    "href": "apirest.html",
+    "title": "Documentación",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nhttps://mockapi.io/ - web que sirve para hacer simulaciones de un servidor fake."
+  },
+  {
+    "objectID": "vocabulario.html",
+    "href": "vocabulario.html",
+    "title": "Documentación",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nKanban organizativo: https://cryptpad.fr/kanban/#/2/kanban/edit/uFh4cMI0WPKQADfVZhKXLsC+/"
+  },
+  {
+    "objectID": "git.html#situacion-linear",
+    "href": "git.html#situacion-linear",
+    "title": "Git",
+    "section": "Situacion Linear",
+    "text": "Situacion Linear\n\n\n\nSituación linear en Git"
+  },
+  {
+    "objectID": "git.html#revert",
+    "href": "git.html#revert",
+    "title": "Git",
+    "section": "Revert",
+    "text": "Revert\n\n\n\nSituación Revert Git"
+  },
+  {
+    "objectID": "git.html#nueva-rama",
+    "href": "git.html#nueva-rama",
+    "title": "Git",
+    "section": "Nueva Rama",
+    "text": "Nueva Rama\n\n\n\nSituación Revert Git\n\n\n\n\n\nZonas Git\nMapa Git\nSituación linear en Git\nSituación Revert Git\nSituación Revert Git"
   }
 ]
