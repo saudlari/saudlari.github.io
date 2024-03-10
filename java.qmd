@@ -63,5 +63,184 @@ Los metódos ***no estáticos*** necesitas un objeto para seren ejecutados.
 
 # Chuleta Java
 
+### 1. Estructura básica de un programa en java: 
+
+```java
+    public class MyProgram {
+        public static void main (String[] args){
+// Code here
+        }
+    }
+
+``` 
+
+### 2. Variables y tipos de datos
+
+**int** numeroEntero = 10;
+
+**double** numero decimal = 0,1;
+
+**char** caracter = 'a';
+
+**String** cadenaTexto = "Hola!"; 
+
+### 3. Operadores básicos
+
+#### 3.1 Aritmeticos
+int suma = a+b;
+
+int resta = a-b; 
+
+int multiplicacion = a*b;
+
+double division = a/b; 
+
+#### 3.2 Comparacion
+boolean esIgual= (a==b);
+
+boolean esMayorQue= (a>b);
+
+#### 3.3 Lógicos 
+boolean and= (condicion1 && condicion2); 
+
+boolean or= (condicion1 || condicion2);
+
+### 4. Estructura de control de flujo
+
+#### 4.1 If-Else
+
+```java
+if (condicion){
+    //Codigo si la condición es verdadera
+} else {
+    //Codigo si la condicion es falsa
+}
 
 ```
+
+#### 4.2 Switch 
+```java
+switch (valor){
+    case1: 
+    //codigo para el caso1
+    break;
+    case2: 
+    // codigo para el caso 2
+    break;
+    default: 
+    //codigo por defecto
+}
+```
+
+#### 4.3 Bucles
+```java
+    for (int i=0; i<5; i++){
+        //codigo a repetir
+    }
+    while (condicion){
+        //codigo a repetir mientras la condicion sea verdadera
+    }
+```
+
+
+### 5.Arrays
+
+#### 5.1 Declaración e inicialización
+
+```java
+
+int[]numeros={1,2,3,4,5};
+```
+
+#### 5.2 Acceso a elementos de una array
+```java
+int primerNumero = numeros[0];
+```
+
+#### 5.3 Interación através de un array 
+```java
+for (int i=0; i<numeros.leight; i++){
+// Codigo para cada elemento
+    }
+```
+
+### 6. Métodos y funciones
+#### 6.1 Declaración de un método
+```java
+    public static int sumar (int a, int b){
+        return a+b;
+    }
+ ```
+
+#### 6.2 Llamada a un método
+
+```java
+ int resultado = sumar (3,4);
+```
+
+### 7. Métodos y exepciones
+```java
+    try{
+        // Codigo que podria lanar una exepcion
+    } catch (tipodeExepcion){
+        // Tipo de exepción
+    } finaly { //Codigo que se ejecuta siempre
+
+    }
+
+```
+
+### Variable de referencia
+Es la forma que tengo para llegar a un objeto, no es un objeto en si. Ejemplo: la etiqueta en una caja, no es la caja en si, pero describe lo que hay dentro de una caja. 
+
+Toda clase de java tiene atributos y hace algo, una acción: 
+
+Operaciones no estáticas de Arraylist: Guest, remove... 
+
+**Método**: Acción
+
+**Atributos**: características
+
+Un objeto se ceea en la memoria ram, pero lo más importante es la variable de referencia 
+
+```{dot}
+graph {
+  node [shape=square, style=filled, fillcolor=lightblue]
+  Person [fillcolor=orange]
+  Children [fillcolor=lightgray]
+  Mother [fillcolor=lightgray]
+  Student [fillcolor=lightgray]
+  Teacher [fillcolor=lightgray]
+
+  Person -- Children 
+  Person -- Mother 
+  Person -- Student 
+  Person -- Teacher 
+}
+```
+
+**Class:** Person
+**Objects:** Teacher, Student, Mother, Children. 
+
+
+Un objeto es una **instancia** de una clase.
+
+### Road Map: 
+
+1. Se crea **clase** y se instancia **objetos** y la **variable de referencia**;
+2. Las **clases** y los **objetos** se relacionan de dos maneras: **Ser (herencia), tener (composición); 
+3. Se relacionan de forma complicada. Se escala y empiezan los problemas de cambio de tipo, etiquetas, etc... 
+
+
+### Variable de referencia
+![Variable de Referencia](/Imagenes/variableReferencia.jpg){.lightbox}
+
+::: {.callout-note}
+Tener claro: 
+1. Clase
+2. Como se crea un objeto de la clase
+3. Etiqueta
+4. Relaciones/ como se relacionan las clases
+5. Casting
+:::
+

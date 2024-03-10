@@ -18,7 +18,7 @@
     "href": "java.html",
     "title": "Java",
     "section": "",
-    "text": "Modelo vista controlador\n!(Modelo Vista controlador)[]\n\n\n\nModelo Vista controlador\n\n\n\n\nProgramación de objetos\n\n\n\n\n\nclassDiagram \nTable &lt;|-- &gt; Menu : order\nTable: number\nMenu: name\nMenu: type\nMenu: price\nMenu: dishes\n\n\n\n\n\n\n\n\n\n\n\n\nclassDiagram\n    class Order\n    Order : +Fecha\n    Order : +Comanda\n    Order : +Numero Mesa\n    Order : +Numero personas\n    Order : +Menu\n    Order : +Pagado\n\n\n\n\n\n\n\n# ArrayList y hashmap\n\n\n\nArrayList y HashMap\n\n\nArrayList no hay valor, solo objetos. Hashmaps es un mapa de hash. Una colección de datos.\n# Controller y Manager\n\n\n\nController y Manager\n\n\nLas clases menu, table, order son clases “core” del Moder. Son clases no estáticas. Las clases Table manager y OrderManager son clases estáticas. Son clases de gestión.\nController mando ordenes, pero no ejecuta. Manager ejecuta.\nLos metódos no estáticos necesitas un objeto para seren ejecutados.\n#Operaciones CRUD\nCreat Read Updat Delet\n\n\n\nModelo Vista controlador\nArrayList y HashMap\nController y Manager"
+    "text": "Modelo vista controlador\n\n\n\nModelo Vista controlador\n\n\n\n\nProgramación de objetos\n\n\n\n\n\nclassDiagram \nTable &lt;|-- &gt; Menu : order\nTable: number\nMenu: name\nMenu: type\nMenu: price\nMenu: dishes\n\n\n\n\n\n\n\n\n\n\nclassDiagram\n    class Order\n    Order : +Fecha\n    Order : +Comanda\n    Order : +Numero Mesa\n    Order : +Numero personas\n    Order : +Menu\n    Order : +Pagado\n\n\n\n\n\n\n# ArrayList y hashmap\n\n\n\nArrayList y HashMap\n\n\nArrayList no hay valor, solo objetos. Hashmaps es un mapa de hash. Una colección de datos.\n#Controller y Manager\n\n\n\nController y Manager\n\n\nLas clases menu, table, order son clases “core” del Model. Son clases no estáticas. Las clases Table manager y OrderManager son clases estáticas. Son clases de gestión.\nController mando ordenes, pero no ejecuta. Manager ejecuta.\nLos metódos no estáticos necesitas un objeto para seren ejecutados.\n#Operaciones CRUD\nCreat Read Updat Delet\n\n\nChuleta Java\n\n1. Estructura básica de un programa en java:\n    public class MyProgram {\n        public static void main (String[] args){\n// Code here\n        }\n    }\n\n\n2. Variables y tipos de datos\nint numeroEntero = 10;\ndouble numero decimal = 0,1;\nchar caracter = ‘a’;\nString cadenaTexto = “Hola!”;\n\n\n3. Operadores básicos\n\n3.1 Aritmeticos\nint suma = a+b;\nint resta = a-b;\nint multiplicacion = a*b;\ndouble division = a/b;\n\n\n3.2 Comparacion\nboolean esIgual= (a==b);\nboolean esMayorQue= (a&gt;b);\n\n\n3.3 Lógicos\nboolean and= (condicion1 && condicion2);\nboolean or= (condicion1 || condicion2);\n\n\n\n4. Estructura de control de flujo\n\n4.1 If-Else\nif (condicion){\n    //Codigo si la condición es verdadera\n} else {\n    //Codigo si la condicion es falsa\n}\n\n\n4.2 Switch\nswitch (valor){\n    case1: \n    //codigo para el caso1\n    break;\n    case2: \n    // codigo para el caso 2\n    break;\n    default: \n    //codigo por defecto\n}\n\n\n4.3 Bucles\n    for (int i=0; i&lt;5; i++){\n        //codigo a repetir\n    }\n    while (condicion){\n        //codigo a repetir mientras la condicion sea verdadera\n    }\n\n\n\n5.Arrays\n\n5.1 Declaración e inicialización\n\nint[]numeros={1,2,3,4,5};\n\n\n5.2 Acceso a elementos de una array\nint primerNumero = numeros[0];\n\n\n5.3 Interación através de un array\nfor (int i=0; i&lt;numeros.leight; i++){\n// Codigo para cada elemento\n    }\n\n\n\n6. Métodos y funciones\n\n6.1 Declaración de un método\n    public static int sumar (int a, int b){\n        return a+b;\n    }\n\n\n6.2 Llamada a un método\n int resultado = sumar (3,4);\n\n\n\n7. Métodos y exepciones\n    try{\n        // Codigo que podria lanar una exepcion\n    } catch (tipodeExepcion){\n        // Tipo de exepción\n    } finaly { //Codigo que se ejecuta siempre\n\n    }\n\n\nVariable de referencia\nEs la forma que tengo para llegar a un objeto, no es un objeto en si. Ejemplo: la etiqueta en una caja, no es la caja en si, pero describe lo que hay dentro de una caja.\nToda clase de java tiene atributos y hace algo, una acción:\nOperaciones no estáticas de Arraylist: Guest, remove…\nMétodo: Acción\nAtributos: características\nUn objeto se ceea en la memoria ram, pero lo más importante es la variable de referencia\n\n\n\n\n\n   \n\nPerson\n\n Person   \n\nChildren\n\n Children   \n\nPerson–Children\n\n   \n\nMother\n\n Mother   \n\nPerson–Mother\n\n   \n\nStudent\n\n Student   \n\nPerson–Student\n\n   \n\nTeacher\n\n Teacher   \n\nPerson–Teacher\n\n  \n\n\n\n\n\nClass: Person Objects: Teacher, Student, Mother, Children.\nUn objeto es una instancia de una clase.\n\n\nRoad Map:\n\nSe crea clase y se instancia objetos y la variable de referencia;\nLas clases y los objetos se relacionan de dos maneras: **Ser (herencia), tener (composición);\nSe relacionan de forma complicada. Se escala y empiezan los problemas de cambio de tipo, etiquetas, etc…\n\n\n\nVariable de referencia\n\n\n\nVariable de Referencia\n\n\n\n\n\n\n\n\nNote\n\n\n\nTener claro: 1. Clase 2. Como se crea un objeto de la clase 3. Etiqueta 4. Relaciones/ como se relacionan las clases 5. Casting"
   },
   {
     "objectID": "mindset.html",
@@ -74,7 +74,7 @@
     "href": "scrum.html",
     "title": "Scrum",
     "section": "",
-    "text": "Scrum es un marco que ayuda a las personas y los equipos a estructurar procesos y gestionar mejor el trabajo. Es un marco de trabajo, que se destaca por su flexibilidad.\n\n4 pilares del scrum\n\n\n\n\n\nflowchart LR\n  A[Planificar] --&gt; B[Ejecutar]\n  B --&gt; C[Revisar]\n  C --&gt; D[Reflexionar]\n\n\n\n\n\n\n\n\nLos roles en el scrum\n\nProducto Owner (P.O)\nEs el contacto entre los equipos y los clientes. Tiene como responsabilidad filtrar las demandas y cuidar de las tareas. Es un puente de comunicación\n\n\nScrum master\nFacilita el trabajo dentro de las guias del scrum. https://www.scrum.org Planifica el tiempo del trabajo.\n\n\nDevelopment team\nPersonas con mucha capacidad tecnica. Deben tener adaptabilidad al cambio.\n\n\nCustomers\nSon personas que toman algunas decisiones internas. Ejemplo: administrativos\n\n\nUser\nCliente, la persona que utiliza el producto.\n\n\n\nFuncionamento\n\nBacklog\nEs una lista, un conjunto de tareas totales del proyecto.\n\n\nSprint\nSe trata de lo que debe ser entregado en 2 semanas, algo concentro. Ejemplo: un boton, un componente, etc…"
+    "text": "Scrum es un marco que ayuda a las personas y los equipos a estructurar procesos y gestionar mejor el trabajo. Es un marco de trabajo, que se destaca por su flexibilidad.\n\n4 pilares del scrum\n\n\n\n\nflowchart LR\n  A[Planificar] --&gt; B[Ejecutar]\n  B --&gt; C[Revisar]\n  C --&gt; D[Reflexionar]\n\n\n\n\n\n\n\nLos roles en el scrum\n\nProducto Owner (P.O)\nEs el contacto entre los equipos y los clientes. Tiene como responsabilidad filtrar las demandas y cuidar de las tareas. Es un puente de comunicación\n\n\nScrum master\nFacilita el trabajo dentro de las guias del scrum. https://www.scrum.org Planifica el tiempo del trabajo.\n\n\nDevelopment team\nPersonas con mucha capacidad tecnica. Deben tener adaptabilidad al cambio.\n\n\nCustomers\nSon personas que toman algunas decisiones internas. Ejemplo: administrativos\n\n\nUser\nCliente, la persona que utiliza el producto.\n\n\n\nFuncionamento\n\nBacklog\nEs una lista, un conjunto de tareas totales del proyecto.\n\n\nSprint\nSe trata de lo que debe ser entregado en 2 semanas, algo concentro. Ejemplo: un boton, un componente, etc…"
   },
   {
     "objectID": "scrum.html#producto-owner-p.o",
@@ -151,7 +151,7 @@
     "href": "vocabulario.html",
     "title": "Vocabulario",
     "section": "",
-    "text": "Vocabulario Dominio Vista"
+    "text": "Vocabulario\nDominio: Es lo que aparece despues de “/” en una web. ejemplo: larissa.io/home; /home es el dominio. En react un dominio es un componente que agrupa varios componentes.\nVista: lo que se imprime en la pantalla, aunque no se cambie el dominio. En React se puede configurar usando un “True”/“False” con el hook useState.\nVirtual dom: tecnologia de React que renderiza la web de forma virtual. Sin necesidad de cargar toda la pagina.\nHooks: gestionan los estados en react y hace con que los datos y el return esten en contacto directo. Pueden mejorar o empeorar una web, depende de como se utilizan. Cualquier cambio en el render se hace con un hook.\nReducers: es una función en JS que desacopla el estado global de una APP Web de la parte visual.\nJson: es una forma de subset de expresar objetos literales.\nPromp: carga los datos en la pantalla sin enviar a la base de datos.\nSPA: Simple Page Aplication"
   },
   {
     "objectID": "git.html#situacion-linear",
@@ -179,6 +179,27 @@
     "href": "react.html#hooks",
     "title": "React",
     "section": "Hooks",
-    "text": "Hooks\nGestionan los estados en react y hace con que los datos y el return esten en contacto directo. Pueden mejorar o empeorar una web, depende de como se utilizan. Cualquier cambio en el render se hace con un hook.\n\n\n\nhooks\n\n\n\nBoton\ncambio de estado\nRenderiza\n\n\n\n\nhooks"
+    "text": "Hooks\nGestionan los estados en react y hace con que los datos y el return esten en contacto directo. Pueden mejorar o empeorar una web, depende de como se utilizan. Cualquier cambio en el render se hace con un hook.\n\n\n\nhooks\n\n\n\nBoton\ncambio de estado\nRenderiza"
+  },
+  {
+    "objectID": "java.html#aritmeticos",
+    "href": "java.html#aritmeticos",
+    "title": "Java",
+    "section": "3.1 Aritmeticos",
+    "text": "3.1 Aritmeticos\nint suma = a+b; int resta = a-b; int multiplicacion = a*b; double division = a/b;"
+  },
+  {
+    "objectID": "java.html#comparacion",
+    "href": "java.html#comparacion",
+    "title": "Java",
+    "section": "3.2 Comparacion",
+    "text": "3.2 Comparacion\nboolean esIgual= (a==b); boolean esMayorQue= (a&gt;b);"
+  },
+  {
+    "objectID": "java.html#lógicos",
+    "href": "java.html#lógicos",
+    "title": "Java",
+    "section": "3.3 Lógicos",
+    "text": "3.3 Lógicos\nboolean and= (condicion1 && condicion2); boolean or= (condicion1 || condicion2);"
   }
 ]
