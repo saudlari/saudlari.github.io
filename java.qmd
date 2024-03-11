@@ -190,7 +190,7 @@ for (int i=0; i<numeros.leight; i++){
 
 ```
 
-### Variable de referencia
+# Variable de referencia
 Es la forma que tengo para llegar a un objeto, no es un objeto en si. Ejemplo: la etiqueta en una caja, no es la caja en si, pero describe lo que hay dentro de una caja. 
 
 Toda clase de java tiene atributos y hace algo, una acción: 
@@ -225,14 +225,14 @@ graph {
 
 Un objeto es una **instancia** de una clase.
 
-### Road Map: 
+# Road Map: 
 
 1. Se crea **clase** y se instancia **objetos** y la **variable de referencia**;
 2. Las **clases** y los **objetos** se relacionan de dos maneras: **Ser (herencia), tener (composición); 
 3. Se relacionan de forma complicada. Se escala y empiezan los problemas de cambio de tipo, etiquetas, etc... 
 
 
-### Variable de referencia
+# Variable de referencia
 ![Variable de Referencia](/Imagenes/variableReferencia.jpg){.lightbox}
 
 ::: {.callout-note}
