@@ -16,6 +16,7 @@ website:
       - scrum.qmd
       - quarto.qmd
       - apirest.qmd
+      - springboot.qmd
       - vocabulario.qmd
       - about.qmd
      
