@@ -109,3 +109,31 @@ Gestionan los estados en react y hace con que los datos y el return esten en con
 2. cambio de estado
 3. Renderiza
 
+
+## Componentes funcionales 
+Son componentes que no printan en pantalla. utilizan Provider, Children, props y Wrapper.
+
+Estructura de una componente funcional
+
+![Componente funcional](/Imagenes/EstructuraComponentes%20que%20no%20renderizan.png){.lightbox}
+
+
+
+## Operaciones CRUD
+
+Operaciones CRUD
+![BackEnd en React](/Imagenes/DataSimulationCrudReact.png){.lightbox}
+
+Operaciones CRUD
+![BackEnd en React](/Imagenes/DataSimulation.png){.lightbox}
+**Provider:** Provedor de datos
+**Wrapper:** Encapsula los datos
+
+**DataSimulation.js** Es el componente que maneja los datos y dialoga con ApiRest. Debe ser un .js y no un .jsx
+
+## Componente funcional y componente que pinta
+
+< Componente /> - componente que pinta
+< Componente**.**Provider /> - componente funcional
+
+Deber: buscar la diferencia entre prop y childer

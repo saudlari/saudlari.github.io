@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Documentación - React</title>
+<title>Documentación - Spring boot</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Git</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./react.html" aria-current="page"> 
+    <a class="nav-link" href="./react.html"> 
 <span class="menu-text">React</span></a>
   </li>  
   <li class="nav-item">
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">ApiRest</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./springboot.html"> 
+    <a class="nav-link active" href="./springboot.html" aria-current="page"> 
 <span class="menu-text">Spring boot</span></a>
   </li>  
   <li class="nav-item">
@@ -159,22 +159,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#estructura-carpetas-react" id="toc-estructura-carpetas-react" class="nav-link active" data-scroll-target="#estructura-carpetas-react">Estructura carpetas React</a></li>
-  <li><a href="#qué-es-router-en-react" id="toc-qué-es-router-en-react" class="nav-link" data-scroll-target="#qué-es-router-en-react">¿Qué es router en React?</a></li>
-  <li><a href="#cómo-funciona-la-hierramienta-router" id="toc-cómo-funciona-la-hierramienta-router" class="nav-link" data-scroll-target="#cómo-funciona-la-hierramienta-router">¿Cómo funciona la hierramienta router?</a></li>
-  <li><a href="#hay-dos-tipos-de-atentificaciones-basicas-jwt-y-oauth" id="toc-hay-dos-tipos-de-atentificaciones-basicas-jwt-y-oauth" class="nav-link" data-scroll-target="#hay-dos-tipos-de-atentificaciones-basicas-jwt-y-oauth">Hay dos tipos de atentificaciones basicas: JWT y oauth</a></li>
-  <li><a href="#qué-necesito-para-hacer-un-formulario-en-react" id="toc-qué-necesito-para-hacer-un-formulario-en-react" class="nav-link" data-scroll-target="#qué-necesito-para-hacer-un-formulario-en-react">Qué necesito para hacer un formulario en React?</a></li>
-  <li><a href="#paseadores" id="toc-paseadores" class="nav-link" data-scroll-target="#paseadores">Paseadores</a></li>
-  <li><a href="#cycle-request-response" id="toc-cycle-request-response" class="nav-link" data-scroll-target="#cycle-request-response">Cycle Request Response</a></li>
-  <li><a href="#css" id="toc-css" class="nav-link" data-scroll-target="#css">Css:</a></li>
-  <li><a href="#frameworks" id="toc-frameworks" class="nav-link" data-scroll-target="#frameworks">Frameworks</a></li>
-  <li><a href="#single-page-aplication" id="toc-single-page-aplication" class="nav-link" data-scroll-target="#single-page-aplication">Single Page Aplication</a>
-  <ul class="collapse">
-  <li><a href="#hooks" id="toc-hooks" class="nav-link" data-scroll-target="#hooks">Hooks</a></li>
-  <li><a href="#componentes-funcionales" id="toc-componentes-funcionales" class="nav-link" data-scroll-target="#componentes-funcionales">Componentes funcionales</a></li>
-  <li><a href="#operaciones-crud" id="toc-operaciones-crud" class="nav-link" data-scroll-target="#operaciones-crud">Operaciones CRUD</a></li>
-  <li><a href="#componente-funcional-y-componente-que-pinta" id="toc-componente-funcional-y-componente-que-pinta" class="nav-link" data-scroll-target="#componente-funcional-y-componente-que-pinta">Componente funcional y componente que pinta</a></li>
-  </ul></li>
+  <li><a href="#estructura-de-proyecto-spring" id="toc-estructura-de-proyecto-spring" class="nav-link active" data-scroll-target="#estructura-de-proyecto-spring">Estructura de proyecto Spring</a></li>
+  <li><a href="#requestmapping-en-controller" id="toc-requestmapping-en-controller" class="nav-link" data-scroll-target="#requestmapping-en-controller">RequestMapping en controller</a></li>
+  <li><a href="#modelo-vista-controlador-en-springboot---detalles-de-hierramientas" id="toc-modelo-vista-controlador-en-springboot---detalles-de-hierramientas" class="nav-link" data-scroll-target="#modelo-vista-controlador-en-springboot---detalles-de-hierramientas">Modelo Vista Controlador en SpringBoot - detalles de hierramientas</a></li>
+  <li><a href="#conexión-entre-rest-controller-y-axios" id="toc-conexión-entre-rest-controller-y-axios" class="nav-link" data-scroll-target="#conexión-entre-rest-controller-y-axios">Conexión entre Rest Controller y Axios</a></li>
   </ul>
 </nav>
     </div>
@@ -183,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">React</h1>
+<h1 class="title">Spring boot</h1>
 </div>
 
 
@@ -200,145 +188,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="estructura-carpetas-react" class="level1">
-<h1>Estructura carpetas React</h1>
-<p>Recordar! Para usar w3css debo instalar por el terminal de visual code, utilizando el comando npm install w3css.</p>
-<p><strong>router</strong> es una hierramienta de React que está presente en tres carpetas(dominios) muy importantes: layout, pages y routers.</p>
-<p><a href="https://albertprofe.dev/reactjs/rjslab5-3.html" class="uri">https://albertprofe.dev/reactjs/rjslab5-3.html</a></p>
-<p>Aqui la web de react router: <a href="https://reactrouter.com/en/main" class="uri">https://reactrouter.com/en/main</a></p>
-</section>
-<section id="qué-es-router-en-react" class="level1">
-<h1>¿Qué es router en React?</h1>
-<p>Es una hierramienta que está presente y crea rutas para tres carpetas(dominios) muy importantes de un proyecto en React: Layout, pages y routers. Para instalar router en react, se puede consultar aquí el paso a paso: <a href="https://albertprofe.dev/reactjs/reactjs-app-router.html" class="uri">https://albertprofe.dev/reactjs/reactjs-app-router.html</a></p>
-</section>
-<section id="cómo-funciona-la-hierramienta-router" class="level1">
-<h1>¿Cómo funciona la hierramienta router?</h1>
+<p><strong>JPA:</strong></p>
+<section id="estructura-de-proyecto-spring" class="level1">
+<h1>Estructura de proyecto Spring</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="./Imagenes/comofuncinarouter.jpg" class="img-fluid figure-img"></p>
-<figcaption>Estructura carpetas y router</figcaption>
+<p><a href="./Imagenes/startspringio.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1" title="Start.spring.io"><img src="./Imagenes/startspringio.jpeg" class="img-fluid figure-img" alt="Start.spring.io"></a></p>
+<figcaption>Start.spring.io</figcaption>
 </figure>
 </div>
-<p>Dentro de router hay una función llamada <browserrouter> </browserrouter> que define toda la navegación del proyecto. Router gestiona los dominios de pages + layout, pero no gestiona los dominios del proyecto. Ejemplo: No creará rutas entre App.jsx y la carpeta components, por ejemplo.</p>
-<p><browserrouter> utiliza los “path”, que es basicamente la ruta de dónde se importa el componente. El funcionamento de encontrar la ruta es similar a le de una estructura URL.</browserrouter></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./Imagenes/estructuraURL.jpg" class="img-fluid figure-img"></p>
-<figcaption>Estructura URL</figcaption>
-</figure>
-</div>
-</section>
-<section id="hay-dos-tipos-de-atentificaciones-basicas-jwt-y-oauth" class="level1">
-<h1>Hay dos tipos de atentificaciones basicas: JWT y oauth</h1>
-<p>JWT: jason web token. Es el tipo de autenficación más comun. Te da un token de acceso.</p>
-<p>Apirest: la hierramienta que permite llevar y traer json. Axios: hierramienta que hace las peticiones a la APIREST Axios: hace las operaciones CRUD Axios hace peticiones a ApiRest y ApiRest lleva y trae (importa) los datos de mockapi.</p>
-<p>C:Creat R: Read U: Update D: Delete</p>
-</section>
-<section id="qué-necesito-para-hacer-un-formulario-en-react" class="level1">
-<h1>Qué necesito para hacer un formulario en React?</h1>
-<ul>
-<li>hook usestate</li>
-<li>for spread</li>
-<li>array de objeto literal</li>
-<li>mapping</li>
-<li>onlick (e)</li>
-<li>data structure</li>
-</ul>
-</section>
-<section id="paseadores" class="level1">
-<h1>Paseadores</h1>
-<p>En reat siempre hay paseo entre Array, Json y Strings.</p>
-</section>
-<section id="cycle-request-response" class="level1">
-<h1>Cycle Request Response</h1>
-</section>
-<section id="css" class="level1">
-<h1>Css:</h1>
-<p><a href="https://semantic-ui.com/" class="uri">https://semantic-ui.com/</a></p>
-</section>
-<section id="frameworks" class="level1">
-<h1>Frameworks</h1>
-<p><a href="https://remix.run/" class="uri">https://remix.run/</a></p>
-<p>Vite - Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.</p>
-<p>Vite - <a href="https://vitejs.dev" class="uri">https://vitejs.dev</a></p>
-<p>w3.css - <a href="https://www.w3schools.com/w3css/default.asp" class="uri">https://www.w3schools.com/w3css/default.asp</a></p>
-<p>los contenidos que están en Idex.hmtl son los que se envían al cliente.</p>
-<p>fakerjs.dev - sirve para hacer fakers de prueba con la web para probarla.</p>
-<p>Los componentes se organizan por vista.</p>
-</section>
-<section id="single-page-aplication" class="level1">
-<h1>Single Page Aplication</h1>
-<p><a href="./Imagenes/spa.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="SPA"><img src="./Imagenes/spa.jpeg" class="img-fluid" alt="SPA"></a> SPA: Simple Page Aplication</p>
-<p><strong>SPA</strong>: Se guarda los datos en la cache del cliente <strong>Server-Render:</strong>: Se guardan los atos en los servidores. <strong>Multipage</strong>: Renderiza las paginas por separado</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Como praxis, en react cada componente es un .jsx</p>
-</div>
-</div>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Caution
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Los archivos .js son archivos que no serán renderizados</p>
-</div>
-</div>
-<section id="hooks" class="level2">
-<h2 class="anchored" data-anchor-id="hooks">Hooks</h2>
-<p>Gestionan los estados en react y hace con que los datos y el return esten en contacto directo. Pueden mejorar o empeorar una web, depende de como se utilizan. Cualquier cambio en el render se hace con un hook.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="./Imagenes/hooks.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" data-glightbox="description: .lightbox-desc-2" title="hooks"><img src="./Imagenes/hooks.jpeg" class="img-fluid figure-img" alt="hooks"></a></p>
-<figcaption>hooks</figcaption>
-</figure>
-</div>
+<p>Pasos:</p>
 <ol type="1">
-<li>Boton</li>
-<li>cambio de estado</li>
-<li>Renderiza</li>
+<li>Architeture</li>
+<li>Modelo Vista Controlador</li>
+<li>Controller</li>
+<li>Configuraciones:</li>
 </ol>
-</section>
-<section id="componentes-funcionales" class="level2">
-<h2 class="anchored" data-anchor-id="componentes-funcionales">Componentes funcionales</h2>
-<p>Son componentes que no printan en pantalla. utilizan Provider, Children, props y Wrapper.</p>
-<p>Estructura de una componente funcional</p>
+<ul>
+<li>(1)Project Structure</li>
+<li>(2)Dependencias</li>
+<li>(3)Application properties</li>
+<li>(4)JDK</li>
+<li>(5)pom.xml</li>
+</ul>
+<ol start="5" type="1">
+<li>DataBase</li>
+</ol>
+<p>*TH: thymeleaf <a href="https://www.thymeleaf.org/" class="uri">https://www.thymeleaf.org/</a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="./Imagenes/EstructuraComponentes que no renderizan.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" data-glightbox="description: .lightbox-desc-3" title="Componente funcional"><img src="./Imagenes/EstructuraComponentes que no renderizan.png" class="img-fluid figure-img" alt="Componente funcional"></a></p>
-<figcaption>Componente funcional</figcaption>
+<p><a href="./Imagenes/EstructuradelProyectoSpring.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2" title="Estructura de proyecto Spring"><img src="./Imagenes/EstructuradelProyectoSpring.png" class="img-fluid figure-img" alt="Estructura de proyecto Spring"></a></p>
+<figcaption>Estructura de proyecto Spring</figcaption>
+</figure>
+</div>
+<p>Cuando faltan dependencias por instalar, hay que buscar la carpeta pom.xml. <a href="./Imagenes/dependencias.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Gestor de dependencias"><img src="./Imagenes/dependencias.png" class="img-fluid" alt="Gestor de dependencias"></a></p>
+<p>Puede faltar la carpeta target <a href="./Imagenes/faltacarpetatarget.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Gestor de dependencias"><img src="./Imagenes/faltacarpetatarget.png" class="img-fluid" alt="Gestor de dependencias"></a> Mirar como agregar la carpeta target (video Albert de la clase de hoy, minuto 25 aprox) <a href="https://cifojava2024screenrecordings.s3.eu-central-1.amazonaws.com/CifjoJava-2024-03-12-1.mp4" class="uri">https://cifojava2024screenrecordings.s3.eu-central-1.amazonaws.com/CifjoJava-2024-03-12-1.mp4</a></p>
+</section>
+<section id="requestmapping-en-controller" class="level1">
+<h1>RequestMapping en controller</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./Imagenes/RequestMappingnController.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-5" data-gallery="quarto-lightbox-gallery-5" title="Gráfico Como funciona request mapping"><img src="./Imagenes/RequestMappingnController.jpeg" class="img-fluid figure-img" alt="Gráfico Como funciona request mapping"></a></p>
+<figcaption>Gráfico Como funciona request mapping</figcaption>
 </figure>
 </div>
 </section>
-<section id="operaciones-crud" class="level2">
-<h2 class="anchored" data-anchor-id="operaciones-crud">Operaciones CRUD</h2>
-<p>Operaciones CRUD <a href="./Imagenes/DataSimulationCrudReact.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="BackEnd en React"><img src="./Imagenes/DataSimulationCrudReact.png" class="img-fluid" alt="BackEnd en React"></a></p>
-<p>Operaciones CRUD <a href="./Imagenes/DataSimulation.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="BackEnd en React"><img src="./Imagenes/DataSimulation.png" class="img-fluid" alt="BackEnd en React"></a> <strong>Provider:</strong> Provedor de datos <strong>Wrapper:</strong> Encapsula los datos</p>
-<p><strong>DataSimulation.js</strong> Es el componente que maneja los datos y dialoga con ApiRest. Debe ser un .js y no un .jsx</p>
+<section id="modelo-vista-controlador-en-springboot---detalles-de-hierramientas" class="level1">
+<h1>Modelo Vista Controlador en SpringBoot - detalles de hierramientas</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./Imagenes/FrontAndBack.jpeg" class="lightbox" data-glightbox="description: .lightbox-desc-6" data-gallery="quarto-lightbox-gallery-6" title="Gráfico Como funciona request mapping"><img src="./Imagenes/FrontAndBack.jpeg" class="img-fluid figure-img" alt="Gráfico Como funciona request mapping"></a></p>
+<figcaption>Gráfico Como funciona request mapping</figcaption>
+</figure>
+</div>
+<p><strong>SSR</strong> Server-side rendering</p>
+<p><strong>TH</strong> Thymeleaf <a href="https://www.thymeleaf.org/" class="uri">https://www.thymeleaf.org/</a></p>
+<p><strong><span class="citation" data-cites="Service">@Service</span></strong> las funcionalidades que son “core” se ponen en service</p>
+<p><strong><span class="citation" data-cites="Manager">@Manager</span></strong> las funcionalidades que son más generales se ponen en manager.</p>
 </section>
-<section id="componente-funcional-y-componente-que-pinta" class="level2">
-<h2 class="anchored" data-anchor-id="componente-funcional-y-componente-que-pinta">Componente funcional y componente que pinta</h2>
-<p>&lt; Componente /&gt; - componente que pinta &lt; Componente<strong>.</strong>Provider /&gt; - componente funcional</p>
-<p>Deber: buscar la diferencia entre prop y childer</p>
+<section id="conexión-entre-rest-controller-y-axios" class="level1">
+<h1>Conexión entre Rest Controller y Axios</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./Imagenes/RestController.png" class="lightbox" data-glightbox="description: .lightbox-desc-7" data-gallery="quarto-lightbox-gallery-7" title="Grafico Rest Controller y Axios"><img src="./Imagenes/RestController.png" class="img-fluid figure-img" alt="Grafico Rest Controller y Axios"></a></p>
+<figcaption>Grafico Rest Controller y Axios</figcaption>
+</figure>
+</div>
 
 
 <div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-2">hooks</span>
-<span class="glightbox-desc lightbox-desc-3">Componente funcional</span>
+<span class="glightbox-desc lightbox-desc-1">Start.spring.io</span>
+<span class="glightbox-desc lightbox-desc-2">Estructura de proyecto Spring</span>
+<span class="glightbox-desc lightbox-desc-5">Gráfico Como funciona request mapping</span>
+<span class="glightbox-desc lightbox-desc-6">Gráfico Como funciona request mapping</span>
+<span class="glightbox-desc lightbox-desc-7">Grafico Rest Controller y Axios</span>
 </div>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -725,7 +649,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","loop":false,"descPosition":"bottom","selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false,"openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

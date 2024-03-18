@@ -1,13 +1,53 @@
 ---
-title: "ApiRest"
+title: "Spring boot"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+**JPA:**
 
 
-https://mockapi.io/ - web que sirve para hacer simulaciones de un servidor fake. 
+# Estructura de proyecto Spring
+![Start.spring.io](/Imagenes/startspringio.jpeg){.lightbox}
+
+Pasos:
+
+1. Architeture
+2. Modelo Vista Controlador
+3. Controller
+4. Configuraciones:
+  * (1)Project Structure 
+  * (2)Dependencias
+  * (3)Application properties
+  * (4)JDK 
+  * (5)pom.xml
+5. DataBase
+
+*TH: thymeleaf <https://www.thymeleaf.org/>
+
+![Estructura de proyecto Spring](/Imagenes/EstructuradelProyectoSpring.png){.lightbox}
+
+Cuando faltan dependencias por instalar, hay que buscar la carpeta pom.xml. 
+![Gestor de dependencias](/Imagenes/dependencias.png){.lightbox}
+
+Puede faltar la carpeta target
+![Gestor de dependencias](/Imagenes/faltacarpetatarget.png){.lightbox}
+Mirar como agregar la carpeta target (video Albert de la clase de hoy, minuto 25 aprox) <https://cifojava2024screenrecordings.s3.eu-central-1.amazonaws.com/CifjoJava-2024-03-12-1.mp4>
 
 
-Pagina similar a mockapi, pero un poco más compleja a nivel de servidor. <https://beeceptor.com/>
+# RequestMapping en controller
+![Gráfico Como funciona request mapping](/Imagenes/RequestMappingnController.jpeg){.lightbox}
+
+# Modelo Vista Controlador en SpringBoot - detalles de hierramientas
+ ![Gráfico Como funciona request mapping](/Imagenes/FrontAndBack.jpeg){.lightbox}
+
+
+**SSR** Server-side rendering
+
+**TH** Thymeleaf <https://www.thymeleaf.org/>
+
+**@Service** las funcionalidades que son "core" se ponen en service
+
+**@Manager** las funcionalidades que son más generales se ponen en manager. 
+
+# Conexión entre Rest Controller y Axios
+
+ ![Grafico Rest Controller y Axios](/Imagenes/RestController.png){.lightbox}

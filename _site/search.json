@@ -201,5 +201,33 @@
     "title": "Java",
     "section": "3.3 Lógicos",
     "text": "3.3 Lógicos\nboolean and= (condicion1 && condicion2); boolean or= (condicion1 || condicion2);"
+  },
+  {
+    "objectID": "springboot.html",
+    "href": "springboot.html",
+    "title": "Spring boot",
+    "section": "",
+    "text": "JPA:\n\nEstructura de proyecto Spring\n\n\n\nStart.spring.io\n\n\nPasos:\n\nArchiteture\nModelo Vista Controlador\nController\nConfiguraciones:\n\n\n(1)Project Structure\n(2)Dependencias\n(3)Application properties\n(4)JDK\n(5)pom.xml\n\n\nDataBase\n\n*TH: thymeleaf https://www.thymeleaf.org/\n\n\n\nEstructura de proyecto Spring\n\n\nCuando faltan dependencias por instalar, hay que buscar la carpeta pom.xml. \nPuede faltar la carpeta target  Mirar como agregar la carpeta target (video Albert de la clase de hoy, minuto 25 aprox) https://cifojava2024screenrecordings.s3.eu-central-1.amazonaws.com/CifjoJava-2024-03-12-1.mp4\n\n\nRequestMapping en controller\n\n\n\nGráfico Como funciona request mapping\n\n\n\n\nModelo Vista Controlador en SpringBoot - detalles de hierramientas\n\n\n\nGráfico Como funciona request mapping\n\n\nSSR Server-side rendering\nTH Thymeleaf https://www.thymeleaf.org/\n@Service las funcionalidades que son “core” se ponen en service\n@Manager las funcionalidades que son más generales se ponen en manager.\n\n\nConexión entre Rest Controller y Axios\n\n\n\nGrafico Rest Controller y Axios\n\n\n\n\n\nStart.spring.io\nEstructura de proyecto Spring\nGráfico Como funciona request mapping\nGráfico Como funciona request mapping\nGrafico Rest Controller y Axios"
+  },
+  {
+    "objectID": "react.html#componentes-funcionales",
+    "href": "react.html#componentes-funcionales",
+    "title": "React",
+    "section": "Componentes funcionales",
+    "text": "Componentes funcionales\nSon componentes que no printan en pantalla. utilizan Provider, Children, props y Wrapper.\nEstructura de una componente funcional\n\n\n\nComponente funcional"
+  },
+  {
+    "objectID": "react.html#operaciones-crud",
+    "href": "react.html#operaciones-crud",
+    "title": "React",
+    "section": "Operaciones CRUD",
+    "text": "Operaciones CRUD\nOperaciones CRUD \nOperaciones CRUD  Provider: Provedor de datos Wrapper: Encapsula los datos\nDataSimulation.js Es el componente que maneja los datos y dialoga con ApiRest. Debe ser un .js y no un .jsx"
+  },
+  {
+    "objectID": "react.html#componente-funcional-y-componente-que-pinta",
+    "href": "react.html#componente-funcional-y-componente-que-pinta",
+    "title": "React",
+    "section": "Componente funcional y componente que pinta",
+    "text": "Componente funcional y componente que pinta\n&lt; Componente /&gt; - componente que pinta &lt; Componente.Provider /&gt; - componente funcional\nDeber: buscar la diferencia entre prop y childer\n\n\n\nhooks\nComponente funcional"
   }
 ]
