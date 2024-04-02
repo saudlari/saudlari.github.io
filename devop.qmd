@@ -40,4 +40,25 @@ Un proyecto puede ser divido en cuatro categorias principales
 |  Spring boot - Maven |   React      |           | 
 
 
-# 
+# Documentación
+https://flowiseai.com/
+https://docs.flowiseai.com/
+
+# NextCloud
+https://nextcloud.com/es/
+La extensión bookmark en nextcloud sirve para grabar paginas
+Como utilizar nextcloud? Hay tres formas: 
+1. Client
+2. Server: 
+   1. Creas una maquina virtual- Server 4gram/40gb  
+   2. Ubuntu Server    
+   3. Docker nextcloud AIO (ALL IN ONE) 
+3. Account en nextcloud junto con terabox y cloudtab 
+https://www.terabox.com/spanish
+https://cloud.tab.digital/
+
+# Raindrop Manager
+Sirve para grabar links  
+https://raindrop.io/
+
+#Prueba

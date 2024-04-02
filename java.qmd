@@ -197,6 +197,9 @@ Toda clase de java tiene atributos y hace algo, una acción:
 
 Operaciones no estáticas de Arraylist: Guest, remove... 
 
+# Variable de referencia
+![Variable de Referencia](/Imagenes/variableReferencia.jpg){.lightbox}
+
 **Método**: Acción
 
 **Atributos**: características
@@ -232,8 +235,6 @@ Un objeto es una **instancia** de una clase.
 3. Se relacionan de forma complicada. Se escala y empiezan los problemas de cambio de tipo, etiquetas, etc... 
 
 
-# Variable de referencia
-![Variable de Referencia](/Imagenes/variableReferencia.jpg){.lightbox}
 
 ::: {.callout-note}
 Tener claro: 
@@ -244,3 +245,6 @@ Tener claro:
 5. Casting
 :::
 
+#Spring boot
+
+**JPA:**

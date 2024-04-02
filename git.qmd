@@ -20,6 +20,8 @@ Git es un **sistema de control de versiones** distribuido ampliamente utilizado 
 10. **git checkout [nombre de la rama/archivo]:** Cambia a una rama diferente o restaura un archivo a una versión anterior.
 11. **git merge [nombre de la rama]:** Fusiona los cambios de una rama específica en la rama actual.
 12. **git remote -v:** Muestra los repositorios remotos configurados junto con sus URLs.
+13. **git stash** guarda en la memoria los cambios locales
+14. **git stash apply** vuelve a la versión anterior no commiteada
 
 
 # 3 trees /zonas para entender git 

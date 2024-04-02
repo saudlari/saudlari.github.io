@@ -19,3 +19,5 @@ title: "Vocabulario"
 **Promp**: carga los datos en la pantalla sin enviar a la base de datos.
 
 **SPA:** Simple Page Aplication
+
+**Lombok** es una biblioteca para el lenguaje de programación Java que se utiliza para reducir la cantidad de código repetitivo y boilerplate (es decir, código estándar que se repite en muchas partes del programa sin cambios significativos). Lombok logra esto mediante la generación automática de código durante el tiempo de compilación, evitando así que los desarrolladores tengan que escribir ciertos métodos, constructores, getters y setters manualmente.
