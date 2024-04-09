@@ -137,3 +137,7 @@ Operaciones CRUD
 < Componente**.**Provider /> - componente funcional
 
 Deber: buscar la diferencia entre prop y childer
+
+## Nexjs
+Tutorial de nextjs utilizando la web de documentación oficial de nextjs. 
+https://www.youtube.com/watch?v=jMy4pVZMyLM
