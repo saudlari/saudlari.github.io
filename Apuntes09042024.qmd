@@ -1,0 +1,54 @@
+---
+title: Apuntes 09 de abril de 2024
+---
+
+
+
+Java objetive no es lo mismo que DB registrer 
+
+Pasos dónde se puede equivocar: 
+- pom? version?
+- project estructure?
+- aplication.properties: port, dataBase, URL,   
+
+
+Pasos para programar:
+project -> dominio -> UML -> programa
+
+Project: User storys, user cases, arquitetura, 
+
+Hay que segurizar el server para que el postman pueda acceder. 
+
+Hay que internalizar estos conceptos: - OneToMany, ManytoOne.
+
+El @Service es lo que controla todo el repositorio. 
+
+El @Autowired sirve para acceder a los gestores de dependencias de forma limpia. 
+Toda la logica de negocio estará en la entidad @Service. 
+En la entidad @Repositorio estarán los metodos. 
+
+La entidad @service será la unica puerta de entrada al repositorio. Cualquier manera de acceder a la base de datos es a partir del @service. 
+
+En el postman testea todo el ciclo, que el ciclo request-responde funciona perfectamente. 
+
+El postman está fuera del springboot, se tiene que instalar como dependencias. 
+
+#Funciones Crud
+
+El Parametro
+@RequestParam - 
+@PathVariable
+
+Un objeto opcional es para comprobar un resultado antes de analisarlo. 
+
+Hoy en dia cada vez más se trabaja con contenedores en spring. 
+
+A/B testing: con inteligencia artifical se publica en producción dos versiones de la APP y el mercado(usuario) nos define qué versión será la mejor. 
+
+
+
+
+
+
+
+
