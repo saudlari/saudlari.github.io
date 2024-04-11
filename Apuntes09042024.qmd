@@ -35,9 +35,12 @@ El postman está fuera del springboot, se tiene que instalar como dependencias.
 
 #Funciones Crud
 
-El Parametro
-@RequestParam - 
+El Parametro:
+@RequestParam 
 @PathVariable
+@Requestbody - parametro para editar
+
+
 
 Un objeto opcional es para comprobar un resultado antes de analisarlo. 
 
@@ -45,8 +48,7 @@ Hoy en dia cada vez más se trabaja con contenedores en spring.
 
 A/B testing: con inteligencia artifical se publica en producción dos versiones de la APP y el mercado(usuario) nos define qué versión será la mejor. 
 
-
-
+La decisión de crear un dominio de una entidad se da porqué seria una información relevante o no. Cada dominio es una esfera de conocimentos. Casi todas entidades suelen ser dominios, pero ni todas las entidades son dominios. Los dominios pueden tener más de una entidad, por ejemplo. 
 
 
 

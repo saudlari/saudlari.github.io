@@ -23,7 +23,6 @@ Esto se logra a través de una combinación de cultura, prácticas y herramienta
 
 Un proyecto puede ser divido en cuatro categorias principales
 
-
 *   **Proyecto**: view, versiones, interacciones, mockup, configuraciones;
 *   **Domains**: controller, models...
 *   **UML:** diagrama de cómo se estructura. 
