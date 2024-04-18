@@ -73,3 +73,17 @@ git switch [<options>] --orphan <new-branch>
 ![Git switch](/Imagenes/gitSwitchMenos.jpeg){.lightbox}
 
 
+### Pull Request
+
+![Git Pull Request](/Imagenes/gitpullrequests.jpeg){.lightbox}
+
+
+### Webhooks
+Es la tecnologia de avisar cuando hay un cambio
+
+### Pulling
+Pregunta constante de si hay alguna actualización 
+
+### Git pull
+cuando haces un pull es la suma de dos comandos: git fetch + git merge
+

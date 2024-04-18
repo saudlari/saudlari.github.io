@@ -65,3 +65,5 @@ Sirve para crear server/maquina virtual.
 https://clouding.io/
 
 
+### Cambio de pom
+No se toca el pom de los proyectos sin avisar porque otro desarollador puede hacer el pull del proyecto y luego no entiende cuál es el problema. Y puedo haber un problema de librerias y/o versiones entre los programadores. 
