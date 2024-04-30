@@ -31,8 +31,7 @@ La entidad @service será la unica puerta de entrada al repositorio. Cualquier m
 
 En el postman testea todo el ciclo, que el ciclo request-responde funciona perfectamente. 
 
-El postman está fuera del springboot, se tiene que instalar como dependencias. 
-
+El postman está fuera del springboot, se tiene que instalar como dependencias.
 #Funciones Crud
 
 El Parametro:

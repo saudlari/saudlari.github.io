@@ -21,3 +21,12 @@ title: "Vocabulario"
 **SPA:** Simple Page Aplication
 
 **Lombok** es una biblioteca para el lenguaje de programación Java que se utiliza para reducir la cantidad de código repetitivo y boilerplate (es decir, código estándar que se repite en muchas partes del programa sin cambios significativos). Lombok logra esto mediante la generación automática de código durante el tiempo de compilación, evitando así que los desarrolladores tengan que escribir ciertos métodos, constructores, getters y setters manualmente.
+
+**"Data fetching"** se refiere al proceso de obtener datos de una fuente externa, como una base de datos, un archivo, una API (Interfaz de Programación de Aplicaciones) o cualquier otro sistema que almacene información. Este proceso es fundamental en el desarrollo de software, especialmente en aplicaciones web y móviles, donde los datos necesarios para las funciones de la aplicación generalmente no se almacenan localmente en el dispositivo del usuario, sino que se recuperan de servidores o la nube.
+
+En un contexto de desarrollo, data fetching puede implicar varios pasos, como:
+
+    1. Solicitud de Datos: Se envía una solicitud desde la aplicación cliente (como un navegador web o una aplicación móvil) al servidor o al sistema de almacenamiento de datos.
+    2. Recuperación de Datos: El sistema de almacenamiento de datos procesa esta solicitud y recupera los datos solicitados.
+    3. Transmisión de Datos: Los datos son enviados de vuelta al cliente.
+    4. Procesamiento de Datos: Una vez que los datos son recibidos, la aplicación puede procesar o manipular los datos para mostrarlos al usuario o realizar otras operaciones.

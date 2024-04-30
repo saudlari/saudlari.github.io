@@ -21,7 +21,7 @@ Git es un **sistema de control de versiones** distribuido ampliamente utilizado 
 11. **git merge [nombre de la rama]:** Fusiona los cambios de una rama específica en la rama actual.
 12. **git remote -v:** Muestra los repositorios remotos configurados junto con sus URLs.
 13. **git stash** guarda en la memoria los cambios locales
-14. **git stash apply** vuelve a la versión anterior no commiteada
+14. **git stash apply** vuelve a la versión anterior no commiteadagit pull
 
 
 # 3 trees /zonas para entender git 
@@ -86,4 +86,5 @@ Pregunta constante de si hay alguna actualización
 
 ### Git pull
 cuando haces un pull es la suma de dos comandos: git fetch + git merge
+
 
