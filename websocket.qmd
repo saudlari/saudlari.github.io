@@ -1,0 +1,73 @@
+---
+title: "WebSocket"
+---
+- Project Chat
+
+# What happen when click "send" en websocket
+
+This pas executed in Olga
+1. Click Send
+2. Distach / send
+3. Conversation Reducer -> Switch Case: Send
+4. Create literal object 
+5. Send websocket (socketprovider.js with context). 
+6. Render New Post (local) 
+
+This pas is ejectuted in AWS 
+7. WS llega a Frankfurt - (Here there are a parsed) (ApiGateway -> Lambda - DynamoDB)
+8. WS sent to Raquel connection
+
+This pad is in Raquel 
+9. Sets SocketProvider
+10. WebSocket Context (message) 
+11. Conversation Feed -> Use Effect (Aqui hay un parseo de websocket a json)
+12.  Dispatch / Receive
+13. Add message to conversation (json -> literal object) - Eso pasa en el Reuser de ConversationFeed.jsx
+14. Re-Render ViewPost
+15. Raquel Answer
+
+```{mermaid}
+sequenceDiagram
+
+Participant Olga
+Participant AWS
+Participant Raquel
+
+Olga -> Olga: 1. Click Send
+Olga -> Olga: 2. Dispatch / send
+Olga -> Olga: 3. Conversation Reducer -> Switch Case: Send
+Olga -> Olga: 4. Create literal object
+Olga -> Olga: 5. Send websocket (socketprovider.js with context)
+Olga -> Olga: 6. Render New Post (local)
+Olga -> AWS: 7. WS arrives in Frankfurt - (Here it is parsed) (ApiGateway -> Lambda -> DynamoDB)
+AWS -> Raquel: 8. WS sent to Raquel's connection
+Raquel -> Raquel: 9. Sets SocketProvider
+Raquel -> Raquel: 10. WebSocket Context (message)
+Raquel -> Raquel: 11. Conversation Feed -> Use Effect (Here the websocket is parsed to JSON)
+Raquel -> Raquel: 12. Dispatch / Receive
+Raquel -> Raquel: 13. Add message to conversation (JSON -> literal object) - This happens in the ConversationFeed.jsx reducer
+Raquel -> Raquel: 14. Re-Render ViewPost
+Raquel -> Olga: 15. Raquel Answers
+
+```
+
+Participant Olga
+Participant AWS
+Participant Raquel
+
+Olga -> Olga: Click Send
+Olga -> Olga: Dispatch / send
+Olga -> Olga: Conversation Reducer -> Switch Case: Send
+Olga -> Olga: Create literal object
+Olga -> Olga: Send websocket (socketprovider.js with context)
+Olga -> Olga: Render New Post (local)
+Olga -> AWS: WS arrives in Frankfurt - (ApiGateway -> Lambda -> DynamoDB)
+AWS -> Raquel: WS sent to Raquel's connection
+Raquel -> Raquel: Sets SocketProvider
+Raquel -> Raquel: WebSocket Context (message)
+Raquel -> Raquel: Conversation Feed -> Use Effect (parse websocket to JSON)
+Raquel -> Raquel: Dispatch / Receive
+Raquel -> Raquel: Add message to conversation (JSON -> literal object) (ConversationFeed.jsx reducer)
+Raquel -> Raquel: Re-Render ViewPost
+Raquel -> Olga: Raquel Answers
+

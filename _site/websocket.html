@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Documentación - DevOp</title>
+<title>Documentación - WebSocket</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,6 +66,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -109,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">React</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./devop.html" aria-current="page"> 
+    <a class="nav-link" href="./devop.html"> 
 <span class="menu-text">DevOp</span></a>
   </li>  
   <li class="nav-item">
@@ -156,17 +159,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#extensiones-del-cursodesarrollo-de-aplicaciones-web" id="toc-extensiones-del-cursodesarrollo-de-aplicaciones-web" class="nav-link active" data-scroll-target="#extensiones-del-cursodesarrollo-de-aplicaciones-web">Extensiones del curso”Desarrollo de aplicaciones web”</a></li>
-  <li><a href="#categorias-de-un-proyecto" id="toc-categorias-de-un-proyecto" class="nav-link" data-scroll-target="#categorias-de-un-proyecto">Categorias de un proyecto</a></li>
-  <li><a href="#ides" id="toc-ides" class="nav-link" data-scroll-target="#ides">IDE’s</a></li>
-  <li><a href="#documentación" id="toc-documentación" class="nav-link" data-scroll-target="#documentación">Documentación</a></li>
-  <li><a href="#nextcloud" id="toc-nextcloud" class="nav-link" data-scroll-target="#nextcloud">NextCloud</a></li>
-  <li><a href="#raindrop-manager" id="toc-raindrop-manager" class="nav-link" data-scroll-target="#raindrop-manager">Raindrop Manager</a></li>
-  <li><a href="#clouding.io" id="toc-clouding.io" class="nav-link" data-scroll-target="#clouding.io">Clouding.io</a>
-  <ul class="collapse">
-  <li><a href="#cambio-de-pom" id="toc-cambio-de-pom" class="nav-link" data-scroll-target="#cambio-de-pom">Cambio de pom</a></li>
-  <li><a href="#appextension-documentacion" id="toc-appextension-documentacion" class="nav-link" data-scroll-target="#appextension-documentacion">App/Extension Documentacion</a></li>
-  </ul></li>
+  <li><a href="#what-happen-when-click-send-en-websocket" id="toc-what-happen-when-click-send-en-websocket" class="nav-link active" data-scroll-target="#what-happen-when-click-send-en-websocket">What happen when click “send” en websocket</a></li>
   </ul>
 </nav>
     </div>
@@ -175,7 +168,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DevOp</h1>
+<h1 class="title">WebSocket</h1>
 </div>
 
 
@@ -192,99 +185,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>DevOps es un enfoque que busca acelerar el desarrollo y la entrega de software mediante la integración continua y la colaboración estrecha entre los equipos de <strong>desarrollo (Dev) y operaciones (Ops).</strong> Promueve la automatización, la comunicación continua y la retroalimentación constante para mejorar la calidad y la eficiencia en todas las etapas del ciclo de vida del desarrollo de software.</p>
-<p>Esto se logra a través de una combinación de cultura, prácticas y herramientas que facilitan la colaboración, la entrega continua y la mejora continua del proceso de desarrollo de software.</p>
-<section id="extensiones-del-cursodesarrollo-de-aplicaciones-web" class="level1">
-<h1>Extensiones del curso”Desarrollo de aplicaciones web”</h1>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: right;">Java</th>
-<th style="text-align: left;">React</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">json</td>
-<td style="text-align: left;">html</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">xml</td>
-<td style="text-align: left;">css</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">java</td>
-<td style="text-align: left;">jsx</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">csv</td>
-<td style="text-align: left;">js</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="categorias-de-un-proyecto" class="level1">
-<h1>Categorias de un proyecto</h1>
-<p>Un proyecto puede ser divido en cuatro categorias principales</p>
 <ul>
-<li><strong>Proyecto</strong>: view, versiones, interacciones, mockup, configuraciones;</li>
-<li><strong>Domains</strong>: controller, models…</li>
-<li><strong>UML:</strong> diagrama de cómo se estructura.</li>
-<li><strong>Code:</strong> código en si mismo</li>
+<li>Project Chat</li>
 </ul>
-</section>
-<section id="ides" class="level1">
-<h1>IDE’s</h1>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: right;">IDEA</th>
-<th style="text-align: left;">Visual Code</th>
-<th>TMBeans</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">Java SE - Maven</td>
-<td style="text-align: left;">Quarto</td>
-<td>Mooc</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">Spring boot - Maven</td>
-<td style="text-align: left;">React</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="documentación" class="level1">
-<h1>Documentación</h1>
-<p>https://flowiseai.com/ https://docs.flowiseai.com/</p>
-</section>
-<section id="nextcloud" class="level1">
-<h1>NextCloud</h1>
-<p>https://nextcloud.com/es/ La extensión bookmark en nextcloud sirve para grabar paginas Como utilizar nextcloud? Hay tres formas: 1. Client 2. Server: 1. Creas una maquina virtual- Server 4gram/40gb<br>
-2. Ubuntu Server<br>
-3. Docker nextcloud AIO (ALL IN ONE) 3. Account en nextcloud junto con terabox y cloudtab https://www.terabox.com/spanish https://cloud.tab.digital/</p>
-</section>
-<section id="raindrop-manager" class="level1">
-<h1>Raindrop Manager</h1>
-<p>Sirve para grabar links<br>
-https://raindrop.io/</p>
-</section>
-<section id="clouding.io" class="level1">
-<h1>Clouding.io</h1>
-<p>Sirve para crear server/maquina virtual. https://clouding.io/</p>
-<section id="cambio-de-pom" class="level3">
-<h3 class="anchored" data-anchor-id="cambio-de-pom">Cambio de pom</h3>
-<p>No se toca el pom de los proyectos sin avisar porque otro desarollador puede hacer el pull del proyecto y luego no entiende cuál es el problema. Y puedo haber un problema de librerias y/o versiones entre los programadores.</p>
-</section>
-<section id="appextension-documentacion" class="level3">
-<h3 class="anchored" data-anchor-id="appextension-documentacion">App/Extension Documentacion</h3>
-<p>flameshot.org</p>
+<section id="what-happen-when-click-send-en-websocket" class="level1">
+<h1>What happen when click “send” en websocket</h1>
+<p>This pas executed in Olga 1. Click Send 2. Distach / send 3. Conversation Reducer -&gt; Switch Case: Send 4. Create literal object 5. Send websocket (socketprovider.js with context). 6. Render New Post (local)</p>
+<p>This pas is ejectuted in AWS 7. WS llega a Frankfurt - (Here there are a parsed) (ApiGateway -&gt; Lambda - DynamoDB) 8. WS sent to Raquel connection</p>
+<p>This pad is in Raquel 9. Sets SocketProvider 10. WebSocket Context (message) 11. Conversation Feed -&gt; Use Effect (Aqui hay un parseo de websocket a json) 12. Dispatch / Receive 13. Add message to conversation (json -&gt; literal object) - Eso pasa en el Reuser de ConversationFeed.jsx 14. Re-Render ViewPost 15. Raquel Answer</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">sequenceDiagram
+
+Participant Olga
+Participant AWS
+Participant Raquel
+
+Olga -&gt; Olga: 1. Click Send
+Olga -&gt; Olga: 2. Dispatch / send
+Olga -&gt; Olga: 3. Conversation Reducer -&gt; Switch Case: Send
+Olga -&gt; Olga: 4. Create literal object
+Olga -&gt; Olga: 5. Send websocket (socketprovider.js with context)
+Olga -&gt; Olga: 6. Render New Post (local)
+Olga -&gt; AWS: 7. WS arrives in Frankfurt - (Here it is parsed) (ApiGateway -&gt; Lambda -&gt; DynamoDB)
+AWS -&gt; Raquel: 8. WS sent to Raquel's connection
+Raquel -&gt; Raquel: 9. Sets SocketProvider
+Raquel -&gt; Raquel: 10. WebSocket Context (message)
+Raquel -&gt; Raquel: 11. Conversation Feed -&gt; Use Effect (Here the websocket is parsed to JSON)
+Raquel -&gt; Raquel: 12. Dispatch / Receive
+Raquel -&gt; Raquel: 13. Add message to conversation (JSON -&gt; literal object) - This happens in the ConversationFeed.jsx reducer
+Raquel -&gt; Raquel: 14. Re-Render ViewPost
+Raquel -&gt; Olga: 15. Raquel Answers
+
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Participant Olga Participant AWS Participant Raquel</p>
+<p>Olga -&gt; Olga: Click Send Olga -&gt; Olga: Dispatch / send Olga -&gt; Olga: Conversation Reducer -&gt; Switch Case: Send Olga -&gt; Olga: Create literal object Olga -&gt; Olga: Send websocket (socketprovider.js with context) Olga -&gt; Olga: Render New Post (local) Olga -&gt; AWS: WS arrives in Frankfurt - (ApiGateway -&gt; Lambda -&gt; DynamoDB) AWS -&gt; Raquel: WS sent to Raquel’s connection Raquel -&gt; Raquel: Sets SocketProvider Raquel -&gt; Raquel: WebSocket Context (message) Raquel -&gt; Raquel: Conversation Feed -&gt; Use Effect (parse websocket to JSON) Raquel -&gt; Raquel: Dispatch / Receive Raquel -&gt; Raquel: Add message to conversation (JSON -&gt; literal object) (ConversationFeed.jsx reducer) Raquel -&gt; Raquel: Re-Render ViewPost Raquel -&gt; Olga: Raquel Answers</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
